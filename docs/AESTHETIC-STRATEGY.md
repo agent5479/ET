@@ -1,28 +1,18 @@
-# Aesthetic strategy — minimise React conversion workload
+# Aesthetic strategy — sales React IA
 
-## Decision (parity phase)
+## Current phase
 
-**Keep the scraped WordPress Storefront look.** Do not re-skin page-by-page in React yet.
+**Public site = React sales rebuild** (Site Machinery–informed flow). Scraped WordPress HTML under `public/mirror/` is **reference only** (assets + legacy copy), not the customer UI.
 
-| Approach | Workload | Parity |
-|----------|----------|--------|
-| Rewrite every page as JSX + restyle | Very high | Easy to drift |
-| **React route → iframe of mirrored HTML + wired CSS/assets** | **Low** | **1:1** |
+| Surface | Implementation |
+|---------|----------------|
+| `/`, `/products`, `/blog`, `/aes`, `/contact` | React components |
+| `/mirror/*` | Static scrape for images & archival pages |
+| Indexing | `noindex` + no `robots.txt` (test deploy) |
 
-Restyle / “informationally additive” IA comes **after** parity is verified.
+## Design notes
 
-## What React does now
-
-1. One route per mirrored permalink (`src/sitemap.js`)
-2. `MirrorFrame` loads `/mirror/.../index.html` (original CSS/JS/images)
-3. `scripts/wire-parity.mjs` rewrites asset URLs + injects parent-nav bridge
-4. `npm run verify:parity` checks HTML + critical CSS/assets return 200
-
-## What React does *not* do yet
-
-- Custom homepage redesign components (kept under `src/pages/` for later)
-- Re-implementing Storefront menus/sliders in JSX
-
-## Later (when you greenlight restyle)
-
-Swap `MirrorFrame` for real components **one route at a time**, reusing scraped copy/assets from `public/mirror`.
+- Brand-first hero (Environment Technology dominant)
+- Sticky navbar with phone CTA
+- Problem → solution → products → AES versatility → audiences → field notes → contact
+- Earth/water palette (forest, sea, terracotta accent) — not purple/cream AI defaults

@@ -1,0 +1,113 @@
+.et-infographic {
+  display: grid;
+  gap: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.et-infographic-hub {
+  width: min(100%, 220px);
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, var(--et-sea), var(--et-forest));
+  color: var(--et-white);
+  display: grid;
+  place-content: center;
+  text-align: center;
+  margin: 0 auto;
+  box-shadow: 0 16px 40px color-mix(in srgb, var(--et-ink) 18%, transparent);
+  animation: et-hub-in 0.8s ease both;
+}
+
+.et-infographic-hub span {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.et-infographic-hub small {
+  font-family: var(--font-ui);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.85;
+}
+
+@keyframes et-hub-in {
+  from {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.et-infographic-nodes {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.et-infographic-nodes button {
+  font-family: var(--font-ui);
+  font-size: 0.88rem;
+  padding: 0.55rem 0.9rem;
+  border: 1px solid color-mix(in srgb, var(--et-forest) 28%, transparent);
+  background: var(--et-white);
+  color: var(--et-ink);
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.et-infographic-nodes button.is-active,
+.et-infographic-nodes button:hover {
+  background: var(--et-forest);
+  border-color: var(--et-forest);
+  color: var(--et-white);
+}
+
+.et-infographic-detail {
+  max-width: 36rem;
+  margin: 0 auto;
+  text-align: center;
+  padding: 1rem 0 0;
+  border-top: 1px solid color-mix(in srgb, var(--et-forest) 16%, transparent);
+}
+
+.et-infographic-detail h3 {
+  font-family: var(--font-display);
+  margin: 0 0 0.4rem;
+  font-size: 1.35rem;
+  color: var(--et-forest);
+}
+
+.et-infographic-detail p {
+  margin: 0;
+  font-family: var(--font-ui);
+  font-size: 1rem;
+}
+
+.et-infographic-note {
+  max-width: 40rem;
+  margin: 0.5rem auto 0;
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  text-align: center;
+  opacity: 0.85;
+}
+
+.et-infographic.is-expanded .et-infographic-hub {
+  width: min(100%, 260px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .et-infographic-hub {
+    animation: none;
+  }
+}

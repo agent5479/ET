@@ -1,14 +1,24 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { Link, Outlet, useLocation } from 'react-router-dom';
 import { NAV, SITE } from '../config/site.js';
 import { applyDocumentMeta, localBusinessJsonLd } from '../seo/meta.js';
 import './Layout.css';
 
-export default function Layout({ title, description }) {
+export default function Layout() {
   const { pathname } = useLocation();
+  const [scrolled, setScrolled] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
-    applyDocumentMeta({ title, description });
+    const onScroll = () => setScrolled(window.scrollY > 12);
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
+
+  useEffect(() => {
+    setMenuOpen(false);
+    applyDocumentMeta({});
     const data = localBusinessJsonLd();
     const id = 'et-jsonld';
     let script = document.getElementById(id);
@@ -23,40 +33,83 @@ export default function Layout({ title, description }) {
       document.head.appendChild(script);
     }
     script.textContent = JSON.stringify(data);
-  }, [title, description, pathname]);
+  }, [pathname]);
+
+  const isActive = (to) => pathname === to || pathname.startsWith(`${to}/`);
 
   return (
     <div className="et-shell">
       {SITE.noindex ? (
         <div className="et-test-banner" role="status">
-          Test rebuild — <strong>noindex</strong> (will not compete with www.et.nz). No robots.txt shipped.
+          Test rebuild — <strong>noindex</strong> (not competing with www.et.nz)
         </div>
       ) : null}
-      <header className="et-header">
-        <Link className="et-brand" to="/">
+
+      <header className={`et-header${scrolled ? ' is-scrolled' : ''}`}>
+        <Link className="et-brand" to="/" onClick={() => setMenuOpen(false)}>
           <span className="et-brand-mark">ET</span>
           <span className="et-brand-text">
             <span className="et-brand-name">{SITE.name}</span>
             <span className="et-brand-line">{SITE.productLine} wastewater systems</span>
           </span>
         </Link>
-        <nav className="et-nav" aria-label="Primary">
+
+        <button
+          type="button"
+          className="et-nav-toggle"
+          aria-expanded={menuOpen}
+          aria-controls="et-primary-nav"
+          onClick={() => setMenuOpen((v) => !v)}
+        >
+          {menuOpen ? 'Close' : 'Menu'}
+        </button>
+
+        <nav id="et-primary-nav" className={`et-nav${menuOpen ? ' is-open' : ''}`} aria-label="Primary">
           {NAV.map((item) => (
-            <Link key={item.to} to={item.to} data-active={pathname === item.to || pathname.startsWith(item.to + '/')}>
+            <Link key={item.to} to={item.to} data-active={isActive(item.to)} onClick={() => setMenuOpen(false)}>
               {item.label}
             </Link>
           ))}
+          <a className="et-nav-phone" href={`tel:${SITE.freephoneTel}`}>
+            {SITE.freephone}
+          </a>
         </nav>
       </header>
+
       <Outlet />
+
       <footer className="et-footer">
-        <p>
-          © {new Date().getFullYear()} {SITE.name}. React rebuild from mirrored www.et.nz content.
-        </p>
-        <p>
-          <Link to="/__mirror">Open HTML mirror</Link>
-          {' · '}
-          <a href="/__status">Scrape status</a>
+        <div className="et-footer-grid">
+          <div>
+            <strong>{SITE.name}</strong>
+            <p>
+              {SITE.address.line1}
+              <br />
+              {SITE.address.locality} {SITE.address.postalCode}
+            </p>
+          </div>
+          <div>
+            <p>
+              <a href={`tel:${SITE.freephoneTel}`}>{SITE.freephoneLabel}</a>
+              <br />
+              <a href={`tel:${SITE.phoneTel}`}>{SITE.phone}</a>
+              <br />
+              <a href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a>
+            </p>
+          </div>
+          <div>
+            <p>
+              <Link to="/products">Products</Link>
+              <br />
+              <Link to="/blog">Field Notes</Link>
+              <br />
+              <Link to="/contact">Contact</Link>
+            </p>
+          </div>
+        </div>
+        <p className="et-footer-meta">
+          © {new Date().getFullYear()} {SITE.name}. Sales rebuild inspired by modern NZ industrial UX — scrape retained
+          under <a href={`${import.meta.env.BASE_URL}mirror/index.html`}>/mirror</a>.
         </p>
       </footer>
     </div>

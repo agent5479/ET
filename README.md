@@ -1,53 +1,37 @@
-# Environment Technology (ET) — React rebuild + scrape mirror
+# Environment Technology (ET) — React sales rebuild
 
-Replica target: [github.com/agent5479/ET](https://github.com/agent5479/ET)  
-Source reference: [www.et.nz](https://www.et.nz)
+Replica: [github.com/agent5479/ET](https://github.com/agent5479/ET) · Live: [agent5479.github.io/ET](https://agent5479.github.io/ET/)  
+Scrape reference: [www.et.nz](https://www.et.nz)
 
 ## Important: test site (non-competing)
 
-- **No `robots.txt`** is published (see `public/ROBOTS.txt.OMITTED.md`).
-- React pages ship `<meta name="robots" content="noindex, nofollow">`.
-- Live site remains the indexed property until you flip `SITE.noindex` in `src/config/site.js`.
+- **No `robots.txt`** (see `public/ROBOTS.txt.OMITTED.md`)
+- React pages use `<meta name="robots" content="noindex, nofollow">`
+- Flip `SITE.noindex` in `src/config/site.js` only at real launch
 
 ## Commands
 
 ```bash
 npm install
-npm run scrape          # discover + mirror pages/assets (8–12s timeouts)
-npm run scrape:discover # URL inventory → scrape/discovered-urls.json
-npm run dev             # http://localhost:5173  React rebuild
+npm run dev           # http://localhost:5173
+npm run build:pages   # production build for GitHub Pages (/ET/ base)
+npm run scrape        # refresh mirror assets/HTML if needed
 ```
-
-- HTML 1:1 mirror: http://localhost:5173/mirror/index.html  
-- Status: http://localhost:5173/__status  
 
 ## Docs
 
-- [docs/SEO-STRATEGY.md](docs/SEO-STRATEGY.md) — additive SEO / local entity / SSG checklist  
-- [docs/NEEDS-YOUR-INPUT.md](docs/NEEDS-YOUR-INPUT.md) — Firebase exam, forms, GBP, dead links  
-- [scrape/NOTES.md](scrape/NOTES.md) — scrape failures & gaps  
+- [docs/AESTHETIC-STRATEGY.md](docs/AESTHETIC-STRATEGY.md) — sales IA vs mirror
+- [docs/SEO-STRATEGY.md](docs/SEO-STRATEGY.md)
+- [docs/NEEDS-YOUR-INPUT.md](docs/NEEDS-YOUR-INPUT.md) — exam / forms / GBP
 
-## Architecture (parity-first)
+## Architecture
 
 | Path | Role |
 |------|------|
-| `src/App.jsx` + `MirrorFrame` | React routes = 1:1 mirrored pages (minimal code) |
-| `public/mirror/` | Scraped WP HTML + CSS + assets (aesthetics source of truth) |
-| `scripts/wire-parity.mjs` | Rewrites asset URLs + iframe→parent nav bridge |
-| `npm run verify:parity` | HTTP checks for pages + critical CSS |
-| `docs/AESTHETIC-STRATEGY.md` | Why we defer restyle |
+| `src/pages/` | Home, products, blog, AES, contact |
+| `src/components/Layout.jsx` | Sticky navbar + footer |
+| `src/components/AesVersatilityInfographic.jsx` | AES versatility diagram |
+| `public/mirror/` | Scraped images + archival WP HTML |
+| `.github/workflows/deploy-pages.yml` | Deploy on push to `main` |
 
-## GitHub Pages
-
-Published via Actions on push to `master`:
-
-**https://agent5479.github.io/ET/**
-
-One-time: Repo → **Settings → Pages → Source: GitHub Actions**.
-
-```bash
-npm run build:pages   # local production build (base /ET/)
-```
-
-Still `noindex` — will not compete with www.et.nz.
-
+Homepage sales flow (Site Machinery–informed): problem → solution → products → versatility → audiences → field notes → contact.

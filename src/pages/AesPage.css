@@ -1,0 +1,33 @@
+.et-aes {
+  max-width: 820px;
+}
+
+.et-aes-hero {
+  width: 100%;
+  max-height: 420px;
+  object-fit: contain;
+  background: var(--et-mist);
+  margin: 0.5rem 0 2rem;
+  padding: 1rem;
+}
+
+.et-aes h2 {
+  font-family: var(--font-display);
+  color: var(--et-forest);
+  margin: 2rem 0 0.75rem;
+}
+
+.et-steps {
+  margin: 0;
+  padding-left: 1.2rem;
+  font-family: var(--font-ui);
+  display: grid;
+  gap: 0.75rem;
+}
+
+.et-aes-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 2rem;
+}

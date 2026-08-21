@@ -29,7 +29,7 @@ function upsertMeta(attr, key, content) {
   el.setAttribute('content', content);
 }
 
-/** LocalBusiness + Organization JSON-LD (emitted when NAP confirmed) */
+/** LocalBusiness JSON-LD from scrape NAP */
 export function localBusinessJsonLd() {
   if (!SITE.address.locality) return null;
   return {
@@ -38,11 +38,13 @@ export function localBusinessJsonLd() {
     name: SITE.name,
     description: SITE.tagline,
     url: SITE.canonicalOrigin || undefined,
-    telephone: SITE.phone || undefined,
-    email: SITE.contactEmail || undefined,
+    telephone: SITE.freephone || SITE.phone,
+    email: SITE.contactEmail,
     address: {
       '@type': 'PostalAddress',
+      streetAddress: SITE.address.line1,
       addressLocality: SITE.address.locality,
+      postalCode: SITE.address.postalCode,
       addressRegion: SITE.address.region,
       addressCountry: SITE.address.country,
     },

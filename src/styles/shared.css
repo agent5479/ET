@@ -1,0 +1,87 @@
+/* Shared layout helpers used across pages */
+.et-wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-inline: clamp(1.25rem, 4vw, 2rem);
+}
+
+.et-kicker {
+  font-family: var(--font-ui);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--et-sea);
+  margin: 0 0 0.5rem;
+}
+
+.et-lede {
+  margin: 0 0 1.75rem;
+  max-width: 40rem;
+  font-size: 1.08rem;
+}
+
+.et-btn {
+  font-family: var(--font-ui);
+  font-size: 0.95rem;
+  text-decoration: none;
+  padding: 0.75rem 1.2rem;
+  border: 1px solid transparent;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.et-btn-primary {
+  background: var(--et-accent);
+  color: var(--et-white);
+}
+
+.et-btn-ghost-dark {
+  border-color: color-mix(in srgb, var(--et-ink) 25%, transparent);
+  color: var(--et-ink);
+  background: var(--et-white);
+}
+
+.et-product-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.et-product-card {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+  padding-bottom: 0.5rem;
+  border-top: 2px solid var(--et-sea);
+  padding-top: 1rem;
+  transition: transform 0.25s ease;
+}
+
+.et-product-card:hover {
+  transform: translateY(-3px);
+}
+
+.et-product-card img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  background: var(--et-mist);
+}
+
+.et-product-card p {
+  margin: 0;
+  font-family: var(--font-ui);
+  font-size: 0.95rem;
+  opacity: 0.9;
+  flex: 1;
+}
+
+.et-product-card span {
+  font-family: var(--font-ui);
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--et-accent);
+}
