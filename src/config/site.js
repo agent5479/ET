@@ -23,8 +23,8 @@ export const SITE = {
   tagline: 'Advanced Enviro-Septic — onsite wastewater treatment for New Zealand.',
   canonicalOrigin: '',
   noindex: true,
-  /** Brand mark from www.et.nz site icon (WordPress cropped AES mark). */
-  brandIcon: 'brand/cropped-Environment_Technology_AES.jpg',
+  /** Wordmark logo (Et. leaf/water mark) — matches origin brand palette. */
+  brandIcon: 'brand/et-logo.png',
   favicon32: 'brand/cropped-Environment_Technology_AES-32x32.jpg',
   appleTouchIcon: 'brand/cropped-Environment_Technology_AES-180x180.jpg',
   contactEmail: 'info@et.nz',
@@ -34,9 +34,9 @@ export const SITE = {
   freephoneTel: '0800927834',
   freephoneLabel: '0800 WASTEH2O',
   hours: 'Phones & Nelson depot 8am–5pm',
-  /** Full-bleed homepage hero — origin et.nz Smart Slider primary slide. */
-  heroImage: 'wp-content/uploads/environment_technology_slider1.jpg',
-  heroImageAlt: 'Environment Technology AES wastewater system — original homepage hero',
+  /** Full-bleed homepage hero — clean NZ river from et.nz Smart Slider. */
+  heroImage: 'wp-content/uploads/environment_technology_slider2.jpg',
+  heroImageAlt: 'Clear New Zealand river through native bush — clean water Environment Technology protects',
   address: {
     line1: '105 Pascoe Street',
     locality: 'Nelson',

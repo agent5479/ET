@@ -1,15 +1,16 @@
 :root {
-  /* Environment Technology — earth / water industrial (not cream/purple AI defaults) */
-  --et-ink: #13261c;
-  --et-forest: #1e4d36;
-  --et-sea: #2a6f6a;
-  --et-sand: #c4b49a;
-  --et-mist: #e7efe9;
-  --et-paper: #f3f6f2;
-  --et-accent: #c45c26;
+  /* Environment Technology — logo palette (leaf green + water blue + white) */
+  --et-ink: #0f2f3d;
+  --et-forest: #5aa62e;
+  --et-sea: #2d95d2;
+  --et-sand: #c5d9e3;
+  --et-mist: #e6f3f8;
+  --et-paper: #f5fafc;
+  --et-accent: #8bc53f;
+  --et-accent-deep: #6fa82e;
   --et-white: #ffffff;
   --et-card-bg: #ffffff;
-  --et-card-border: color-mix(in srgb, var(--et-forest) 14%, transparent);
+  --et-card-border: color-mix(in srgb, var(--et-sea) 18%, transparent);
   --et-card-radius: 12px;
   --et-card-shadow: 0 10px 28px color-mix(in srgb, var(--et-ink) 8%, transparent);
   --et-section-pad: clamp(2.5rem, 6vw, 4.5rem);
@@ -67,7 +68,7 @@ h3,
 }
 
 a {
-  color: var(--et-forest);
+  color: var(--et-sea);
 }
 
 img {

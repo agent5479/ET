@@ -176,6 +176,13 @@ a.et-card:focus-visible {
 
 .et-btn-primary {
   background: var(--et-accent);
+  color: var(--et-ink);
+  font-weight: 600;
+}
+
+.et-btn-primary:hover,
+.et-btn-primary:focus-visible {
+  background: var(--et-accent-deep);
   color: var(--et-white);
 }
 
@@ -214,7 +221,7 @@ a.et-card:focus-visible {
 }
 
 .et-cta-strip {
-  background: linear-gradient(120deg, var(--et-forest), var(--et-sea));
+  background: linear-gradient(120deg, var(--et-sea), var(--et-forest));
   color: var(--et-white);
   padding-block: var(--et-section-pad);
   text-align: center;

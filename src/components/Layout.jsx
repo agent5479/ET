@@ -50,9 +50,9 @@ export default function Layout() {
           <img
             className="et-brand-mark"
             src={publicAsset(SITE.brandIcon)}
-            alt=""
-            width={40}
-            height={40}
+            alt={SITE.name}
+            width={160}
+            height={48}
             decoding="async"
           />
           <span className="et-brand-text">
@@ -89,7 +89,7 @@ export default function Layout() {
         <div className="et-footer-grid">
           <div>
             <strong className="et-footer-brand">
-              <img src={publicAsset(SITE.brandIcon)} alt="" width={28} height={28} decoding="async" />
+              <img src={publicAsset(SITE.brandIcon)} alt="" width={96} height={32} decoding="async" />
               {SITE.name}
             </strong>
             <p>
