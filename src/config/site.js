@@ -25,8 +25,8 @@ export const SITE = {
   noindex: true,
   /** Brand mark from www.et.nz site icon (WordPress cropped AES mark). */
   brandIcon: 'brand/cropped-Environment_Technology_AES.jpg',
-  favicon32: 'favicon-32x32.jpg',
-  appleTouchIcon: 'apple-touch-icon.jpg',
+  favicon32: 'brand/cropped-Environment_Technology_AES-32x32.jpg',
+  appleTouchIcon: 'brand/cropped-Environment_Technology_AES-180x180.jpg',
   contactEmail: 'info@et.nz',
   phone: '03 970 7979',
   phoneTel: '039707979',
