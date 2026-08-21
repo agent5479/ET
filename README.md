@@ -37,5 +37,17 @@ npm run dev             # http://localhost:5173  React rebuild
 | `npm run verify:parity` | HTTP checks for pages + critical CSS |
 | `docs/AESTHETIC-STRATEGY.md` | Why we defer restyle |
 
-Restyle / new IA comes after parity. No `robots.txt` (test site).
+## GitHub Pages
+
+Published via Actions on push to `master`:
+
+**https://agent5479.github.io/ET/**
+
+One-time: Repo → **Settings → Pages → Source: GitHub Actions**.
+
+```bash
+npm run build:pages   # local production build (base /ET/)
+```
+
+Still `noindex` — will not compete with www.et.nz.
 

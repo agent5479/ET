@@ -14,6 +14,7 @@
     "verify:parity": "node scripts/verify-parity.mjs",
     "dev": "vite",
     "build": "vite build",
+    "build:pages": "vite build --base=/ET/ && node scripts/prepare-gh-pages.mjs",
     "preview": "vite preview"
   },
   "dependencies": {

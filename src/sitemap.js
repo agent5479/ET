@@ -52,9 +52,10 @@ export function routePathFor(permalink) {
   return permalink.replace(/\/$/, '');
 }
 
-/** Static file URL under public/mirror */
+/** Static file URL under public/mirror (honours Vite base for GitHub Pages). */
 export function mirrorSrcForPath(permalink) {
-  if (!permalink || permalink === '/') return '/mirror/index.html';
+  const base = (import.meta.env.BASE_URL || '/').replace(/\/?$/, '/');
+  if (!permalink || permalink === '/') return `${base}mirror/index.html`;
   const clean = permalink.endsWith('/') ? permalink : `${permalink}/`;
-  return `/mirror${clean}index.html`;
+  return `${base}mirror${clean}index.html`;
 }

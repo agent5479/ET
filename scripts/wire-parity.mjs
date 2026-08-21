@@ -68,8 +68,8 @@ function wire(html, filePath) {
     out = out.replace(/<head([^>]*)>/i, `<head$1><meta name="robots" content="noindex, nofollow">`);
   }
 
-  // Bridge: in-iframe clicks on site pages navigate the parent React route (keeps 1:1 chrome sync)
-  const bridge = `<script data-et-parity-bridge>(function(){if(window.top===window)return;document.addEventListener('click',function(e){var a=e.target&&e.target.closest&&e.target.closest('a[href]');if(!a||a.target==='_blank'||a.hasAttribute('download'))return;var href=a.getAttribute('href');if(!href||href.charAt(0)==='#'||/^(mailto:|tel:|javascript:)/i.test(href))return;try{var u=new URL(href,window.location.href);if(u.origin!==window.location.origin)return;if(u.pathname.indexOf('/mirror/wp-')===0||/\\.(pdf|zip|png|jpe?g|gif|svg|css|js)(\\?|$)/i.test(u.pathname))return;e.preventDefault();window.parent.location.href=u.pathname+(u.search||'')+(u.hash||'');}catch(err){}});}());</script>`;
+  // Bridge: in-iframe clicks navigate parent React route (supports GitHub Pages basename via parent.__ET_BASE__)
+  const bridge = `<script data-et-parity-bridge>(function(){if(window.top===window)return;document.addEventListener('click',function(e){var a=e.target&&e.target.closest&&e.target.closest('a[href]');if(!a||a.target==='_blank'||a.hasAttribute('download'))return;var href=a.getAttribute('href');if(!href||href.charAt(0)==='#'||/^(mailto:|tel:|javascript:)/i.test(href))return;try{var u=new URL(href,window.location.href);if(u.origin!==window.location.origin)return;if(u.pathname.indexOf('/mirror/wp-')===0||u.pathname.indexOf('/ET/mirror/wp-')===0||/\\.(pdf|zip|png|jpe?g|gif|svg|css|js)(\\?|$)/i.test(u.pathname))return;e.preventDefault();var base=(window.parent.__ET_BASE__||'').replace(/\\/$/,'');var path=u.pathname+(u.search||'')+(u.hash||'');if(base&&path.indexOf(base+'/')!==0&&path!==base)path=base+path;window.parent.location.href=path;}catch(err){}});}());</script>`;
   if (!/data-et-parity-bridge/.test(out)) {
     out = out.replace(/<\/body>/i, `${bridge}</body>`);
   }
