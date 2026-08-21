@@ -44,37 +44,80 @@ export default function HomePage() {
             height={40}
             decoding="async"
           />
-          <h1>AES wastewater systems built for New Zealand sites.</h1>
+          <h1>AES wastewater systems and site products for New Zealand.</h1>
           <p className="et-hero-support">
-            Passive, reliable onsite treatment — quieter homes, flexible design, proven performance for residential
-            through large-scale projects.
+            Browse the range below — AES treatment, components, sand, Tuf-Tite, UV and greywater — then dig into how it
+            works when you need the detail.
           </p>
           <div className="et-hero-ctas">
-            <Link className="et-btn et-btn-primary" to="/products">
-              Explore products
-            </Link>
-            <Link className="et-btn et-btn-ghost" to="/aes">
-              How AES works
+            <a className="et-btn et-btn-primary" href="#products">
+              See offerings
+            </a>
+            <Link className="et-btn et-btn-ghost" to="/products">
+              All products
             </Link>
           </div>
         </div>
       </section>
 
-      <Section>
-        <SectionHeader kicker="The problem" title="Tired of pumps, alarms and wasted land?" />
-        <CardGrid cols={2}>
-          {PROBLEMS.map((text) => (
-            <Card key={text} className="et-problem-card">
-              <p className="et-card__body">{text}</p>
+      <Section id="products">
+        <SectionHeader
+          kicker="What we supply"
+          title="Offerings from Environment Technology"
+          lede="AES at the centre, with components, sand, Tuf-Tite, UV and greywater for complete onsite solutions."
+        />
+        <CardGrid cols={3}>
+          {PRODUCTS.map((p) => (
+            <Card key={p.slug} to={`/products/${p.slug}`}>
+              <img className="et-card__media" src={mirrorAsset(p.image)} alt="" loading="lazy" />
+              <h3 className="et-card__title">{p.title}</h3>
+              <p className="et-card__body">{p.summary}</p>
+              <span className="et-card__cta">View details →</span>
             </Card>
           ))}
         </CardGrid>
       </Section>
 
       <Section alt>
+        <SectionHeader kicker="Who it’s for" title="Paths for every audience" />
+        <CardGrid cols={3}>
+          <Card to="/products/aes-system">
+            <h3 className="et-card__title">Homeowners</h3>
+            <p className="et-card__body">Quiet, low-fuss treatment for new builds and retrofits</p>
+            <span className="et-card__cta">Explore AES →</span>
+          </Card>
+          <Card to="/aes">
+            <h3 className="et-card__title">Designers &amp; installers</h3>
+            <p className="et-card__body">Design aids, sand specs, training pathway</p>
+            <span className="et-card__cta">AES system →</span>
+          </Card>
+          <Card to="/products">
+            <h3 className="et-card__title">Commercial &amp; community</h3>
+            <p className="et-card__body">Scale AES for peaks, not averages</p>
+            <span className="et-card__cta">All products →</span>
+          </Card>
+        </CardGrid>
+      </Section>
+
+      <Section>
         <SectionHeader
-          kicker="The solution"
-          title="AES — passive secondary treatment that scales with the site"
+          kicker="Versatility"
+          title="One AES language across site types"
+          lede="Residential, commercial, community and large-scale — plus constrained layouts — without inventing a new mechanical plant for every consent."
+        />
+        <Card padLg center className="et-infographic-card">
+          <AesVersatilityInfographic />
+          <Link className="et-text-link" to="/aes">
+            Open full AES overview →
+          </Link>
+        </Card>
+      </Section>
+
+      <Section alt>
+        <SectionHeader
+          kicker="Why AES"
+          title="Passive secondary treatment that scales with the site"
+          lede="Skip the pitch deck order — here is the practical case once you know what ET supplies."
         />
         <div className="et-split">
           <Card padLg>
@@ -100,62 +143,21 @@ export default function HomePage() {
             />
           </Card>
         </div>
-      </Section>
-
-      <Section id="products">
-        <SectionHeader
-          kicker="Product range"
-          title="Everything Environment Technology supplies"
-          lede="Dedicated product pages — AES at the centre, with components, sand, Tuf-Tite, UV and greywater for complete site solutions."
-        />
-        <CardGrid cols={3}>
-          {PRODUCTS.map((p) => (
-            <Card key={p.slug} to={`/products/${p.slug}`}>
-              <img className="et-card__media" src={mirrorAsset(p.image)} alt="" loading="lazy" />
-              <h3 className="et-card__title">{p.title}</h3>
-              <p className="et-card__body">{p.summary}</p>
-              <span className="et-card__cta">View details →</span>
-            </Card>
-          ))}
-        </CardGrid>
-      </Section>
-
-      <Section alt>
-        <SectionHeader
-          kicker="Versatility"
-          title="One AES language across site types"
-          lede="Residential, commercial, community and large-scale — plus constrained layouts — without inventing a new mechanical plant for every consent."
-        />
-        <Card padLg center className="et-infographic-card">
-          <AesVersatilityInfographic />
-          <Link className="et-text-link" to="/aes">
-            Open full AES overview →
-          </Link>
-        </Card>
+        <div className="et-why-problems">
+          <p className="et-kicker" style={{ textAlign: 'center', marginBottom: '1rem' }}>
+            Common pain points AES avoids
+          </p>
+          <CardGrid cols={2}>
+            {PROBLEMS.map((text) => (
+              <Card key={text} className="et-problem-card">
+                <p className="et-card__body">{text}</p>
+              </Card>
+            ))}
+          </CardGrid>
+        </div>
       </Section>
 
       <Section>
-        <SectionHeader kicker="Who it’s for" title="Paths for every audience" />
-        <CardGrid cols={3}>
-          <Card to="/products/aes-system">
-            <h3 className="et-card__title">Homeowners</h3>
-            <p className="et-card__body">Quiet, low-fuss treatment for new builds and retrofits</p>
-            <span className="et-card__cta">Explore AES →</span>
-          </Card>
-          <Card to="/aes">
-            <h3 className="et-card__title">Designers &amp; installers</h3>
-            <p className="et-card__body">Design aids, sand specs, training pathway</p>
-            <span className="et-card__cta">AES system →</span>
-          </Card>
-          <Card to="/products">
-            <h3 className="et-card__title">Commercial &amp; community</h3>
-            <p className="et-card__body">Scale AES for peaks, not averages</p>
-            <span className="et-card__cta">All products →</span>
-          </Card>
-        </CardGrid>
-      </Section>
-
-      <Section alt>
         <SectionHeader kicker="Field notes" title="From the ET desk" />
         <CardGrid cols={3}>
           {BLOG_POSTS.slice(0, 3).map((post) => (
