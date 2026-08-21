@@ -36,6 +36,14 @@ export default function HomePage() {
         <div className="et-hero-shade" />
         <div className="et-hero-copy">
           <p className="et-hero-brand">Environment Technology</p>
+          <img
+            className="et-hero-aes-mark"
+            src={mirrorAsset(SITE.aesLogo)}
+            alt="AES — Advanced Enviro-Septic"
+            width={120}
+            height={40}
+            decoding="async"
+          />
           <h1>AES wastewater systems built for New Zealand sites.</h1>
           <p className="et-hero-support">
             Passive, reliable onsite treatment — quieter homes, flexible design, proven performance for residential

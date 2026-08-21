@@ -4,7 +4,7 @@ import { Card, CardGrid } from '../components/ui/Card.jsx';
 import PageHero from '../components/ui/PageHero.jsx';
 import Section from '../components/ui/Section.jsx';
 import SectionHeader from '../components/ui/SectionHeader.jsx';
-import { mirrorAsset } from '../config/site.js';
+import { SITE, mirrorAsset } from '../config/site.js';
 import { usePageMeta } from '../hooks/usePageMeta.js';
 import './AesPage.css';
 
@@ -31,6 +31,14 @@ export default function AesPage() {
 
       <Section reveal={false}>
         <Card padLg className="et-aes-diagram-card">
+          <img
+            className="et-aes-product-mark"
+            src={mirrorAsset(SITE.aesLogo)}
+            alt="AES — Advanced Enviro-Septic"
+            width={140}
+            height={48}
+            decoding="async"
+          />
           <img
             src={mirrorAsset('wp-content/uploads/environment_technology_aes_model_vented.png')}
             alt="AES system model diagram"

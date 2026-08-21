@@ -25,8 +25,15 @@ export const SITE = {
   noindex: true,
   /** Wordmark logo (Et. leaf/water mark) — matches origin brand palette. */
   brandIcon: 'brand/et-logo.png',
-  favicon32: 'brand/cropped-Environment_Technology_AES-32x32.jpg',
-  appleTouchIcon: 'brand/cropped-Environment_Technology_AES-180x180.jpg',
+  /** Cropped AES mark used as brand/tile/favicon source of truth. */
+  brandMark: 'brand/cropped-Environment_Technology_AES.jpg',
+  tileImage: 'brand/cropped-Environment_Technology_AES-270x270.jpg',
+  faviconIco: 'favicon.ico',
+  favicon32: 'favicon-32x32.jpg',
+  favicon192: 'favicon-192x192.jpg',
+  appleTouchIcon: 'apple-touch-icon.jpg',
+  /** Product wordmark (AES) — small accent, not brand-hero. */
+  aesLogo: 'wp-content/uploads/AES_logo.png',
   contactEmail: 'info@et.nz',
   phone: '03 970 7979',
   phoneTel: '039707979',
