@@ -120,6 +120,20 @@
   color: var(--et-mist);
 }
 
+.et-footer-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.et-footer-brand img {
+  width: 1.75rem;
+  height: 1.75rem;
+  object-fit: contain;
+  border-radius: 3px;
+  background: var(--et-white);
+}
+
 .et-footer a {
   color: var(--et-sand);
   text-decoration: none;
