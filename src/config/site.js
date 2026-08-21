@@ -24,9 +24,9 @@ export const SITE = {
   freephoneTel: '0800927834',
   freephoneLabel: '0800 WASTEH2O',
   hours: 'Phones & Nelson depot 8am–5pm',
-  /** Full-bleed homepage hero — on-theme wastewater (AES pipe in system sand). */
-  heroImage: 'wp-content/uploads/aes_pipe_insand.jpg',
-  heroImageAlt: 'AES wastewater pipe embedded in system sand — onsite treatment bed',
+  /** Full-bleed homepage hero — origin et.nz Smart Slider primary slide. */
+  heroImage: 'wp-content/uploads/environment_technology_slider1.jpg',
+  heroImageAlt: 'Environment Technology AES wastewater system — original homepage hero',
   address: {
     line1: '105 Pascoe Street',
     locality: 'Nelson',
