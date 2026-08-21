@@ -1,9 +1,9 @@
-# Deploy ET replica to GitHub Pages (site root of https://<user>.github.io/ET/)
+# Deploy ET replica to GitHub Pages (https://<user>.github.io/ET/)
 name: Deploy GitHub Pages
 
 on:
   push:
-    branches: [main, master]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -13,7 +13,7 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:
