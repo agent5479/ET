@@ -1,0 +1,516 @@
+/*
+ Theme Name:   ETNZ
+ Theme URI:    https://woocommerce.com/storefront/
+ Description:  Storefront Child Theme
+ Author:       Archie ETNZ
+ Author URI:   
+ Template:     storefront
+ Version:      1.2.3
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  Storefront
+*/
+
+/* --------------- Theme customization starts here ----------------- */
+
+/* hide the element for mobile */
+.hide-for-small {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .hide-for-small {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .show-for-large {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .show-for-medium {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) {
+  .show-for-small-only {
+    display: none;
+  }
+}
+article.hentry, .site-main {
+  margin-bottom: 0;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0 !important;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.home .wp-block-group,
+.home .wp-block-media-text {
+  margin-top: 24px;
+}
+
+.wp-block-media-text .wp-block-media-text__content {
+  padding: 24px;
+}
+
+.section-figures {
+  background: url("../../uploads/assets/bg-splash-lake.jpg") center;
+  background-size: cover;
+}
+.section-figures h2 {
+  font-size: 48px;
+  margin-top: 24px;
+}
+
+.storefront-handheld-footer-bar {
+  display: none !important;
+}
+
+.entry-header h1 {
+  display: none;
+}
+
+/* for the list content on the page */
+.list-white-text {
+  color: white;
+}
+
+.single.single-product h1 {
+  font-size: 2em;
+}
+
+mark {
+  background-color: #ff0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  -webkit-direct-focus: none;
+  outline: none;
+}
+
+.et-anchor figcaption {
+  color: #006666;
+}
+
+.btn-header-wraper, .btn-content-wraper {
+  text-align: center;
+  margin: 12px 0 24px;
+  display: block;
+}
+.btn-header-wraper a, .btn-content-wraper a {
+  text-align: center;
+  color: black;
+  background: #71c828;
+  display: inline-block;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 6px 12px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+.btn-header-wraper a:hover, .btn-content-wraper a:hover {
+  background-color: #65b324;
+}
+@media (min-width: 1000px) {
+  .btn-header-wraper a, .btn-content-wraper a {
+    font-size: 14px;
+    padding: 6px 24px;
+  }
+}
+
+.btn-content-wraper a {
+  color: white;
+  background: #006666;
+}
+.btn-content-wraper a:hover {
+  background-color: #003333;
+}
+
+@media (max-width: 768px) {
+  .storefront-primary-navigation .col-full {
+    margin: 0;
+  }
+
+  a.custom-logo-link img {
+    width: 308px !important;
+    height: 93px;
+    margin: 0 auto;
+  }
+}
+.site-header {
+  background-image: url("../../uploads/assets/bg-hero-sm.jpg");
+  background-position: center top;
+  height: 280px;
+  color: white;
+  margin-bottom: 12px !important;
+  padding-top: 12px;
+  padding-top: 0;
+}
+@media (min-width: 768px) {
+  .site-header {
+    height: auto;
+    background-image: url("../../uploads/assets/bg-header-1920.jpg");
+  }
+}
+.site-header .site-branding {
+  width: 100%;
+}
+.site-header .site-branding .custom-logo-link {
+  text-align: center;
+}
+.site-header .site-branding .custom-logo-link img {
+  max-width: none;
+}
+@media (min-width: 768px) {
+  .site-header .site-branding .custom-logo-link img {
+    max-width: 550px;
+  }
+}
+@media (min-width: 768px) {
+  .site-header .site-branding {
+    display: none;
+  }
+}
+.site-header .aes-logo {
+  width: 233px;
+  height: auto;
+  margin: 48px auto;
+}
+.site-header .aes-logo-swt {
+  width: 653px;
+}
+.site-header .phone-button {
+  position: absolute;
+  top: 1.41575em;
+  left: 1.41575em;
+}
+.site-header .site-search {
+  display: none;
+}
+
+.header-content-wrap:before, .header-content-wrap:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.header-content-wrap .inner {
+  display: grid;
+  grid-template-rows: repeat(1fr);
+  grid-row-gap: 54px;
+  padding-top: 90px;
+  padding-bottom: 54px;
+}
+.home .header-content-wrap .inner {
+  grid-row-gap: 90px;
+  padding-bottom: 90px;
+}
+
+.identity {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* 0800 phone  */
+.phone-num {
+  font-weight: bold;
+  font-size: 30px;
+  display: block;
+  text-align: right;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(255, 255, 255, 0.87);
+  letter-spacing: -1.5px;
+  line-height: 1;
+}
+.phone-num:hover {
+  color: white;
+}
+.phone-num span {
+  font-size: 60%;
+}
+
+.company-statment p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+.company-statment p .highlight {
+  color: #7ed634;
+}
+
+@media (min-width: 768px) {
+  .woocommerce-active .site-header .site-header-cart {
+    display: none;
+  }
+}
+.handheld-navigation {
+  position: absolute;
+  width: 100%;
+  top: 64px;
+}
+.handheld-navigation ul.menu {
+  background-color: rgba(0, 0, 0, 0.95);
+  margin: 10px 1.41575em;
+}
+.handheld-navigation ul.menu > li {
+  padding-left: 1.41575em;
+}
+.handheld-navigation ul.menu > li:first-child {
+  padding-top: 1.41575em;
+}
+.handheld-navigation ul.menu > li:last-child {
+  padding-bottom: 1.41575em;
+}
+
+@media (min-width: 768px) {
+  .storefront-primary-navigation {
+    background-color: rgba(0, 102, 102, 0.94);
+    position: fixed;
+    width: 100%;
+  }
+  .storefront-primary-navigation > .col-full {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 48px;
+  }
+  .storefront-primary-navigation > .col-full:before, .storefront-primary-navigation > .col-full:after {
+    display: none;
+  }
+  .storefront-primary-navigation .main-navigation {
+    float: none !important;
+    width: auto !important;
+    margin: 0 !important;
+  }
+  .storefront-primary-navigation .main-navigation ul.menu > li > a {
+    font-size: 13px;
+    padding: 10px 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.87);
+  }
+  .storefront-primary-navigation .main-navigation ul.menu > li > a:hover {
+    color: white;
+  }
+  .storefront-primary-navigation .main-navigation ul.menu > li.menu-item-has-children > a::after {
+    margin-left: 0.5em;
+  }
+  .storefront-primary-navigation .main-navigation ul.menu ul.sub-menu {
+    background-color: rgba(0, 102, 102, 0.94);
+    padding: 0.825em;
+    padding-right: 0;
+  }
+  .storefront-primary-navigation .main-navigation ul.menu ul.sub-menu li a {
+    font-size: 13px;
+    font-weight: bold;
+    padding: 4px;
+  }
+}
+@media (max-width: 768px) {
+  button.menu-toggle {
+    border: 0;
+    margin-right: 1.41575em;
+    margin-top: 1.41575em;
+  }
+}
+.extra-links {
+  position: relative;
+  float: none;
+  width: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .extra-links {
+    display: flex;
+  }
+}
+.extra-links * {
+  line-height: 1;
+}
+.extra-links a {
+  font-size: 13px;
+  padding: 0 8px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.87);
+}
+.extra-links a:hover {
+  color: white;
+}
+.extra-links a:first-child {
+  border-right: 1px rgba(255, 255, 255, 0.1) solid;
+}
+.extra-links a img {
+  width: auto;
+  max-width: none;
+}
+.extra-links #nav-search {
+  cursor: pointer;
+}
+.extra-links #search-bar {
+  position: absolute;
+  top: -5px;
+  right: 48px;
+  z-index: 99;
+}
+.extra-links #search-bar .search-submit {
+  display: none;
+}
+.extra-links #search-bar form {
+  margin: 0;
+}
+.extra-links #search-bar .search-field {
+  padding: 8px;
+}
+
+/*footer*/
+.site-info {
+  padding: 1em 0;
+  display: none;
+}
+.site-info a {
+  display: none;
+}
+
+footer.site-footer {
+  padding: 1em 0;
+}
+footer.site-footer .footer-widgets {
+  padding: 1em 0;
+}
+footer.site-footer .footer-widgets a {
+  font-size: 16px;
+  text-decoration: none;
+}
+footer.site-footer .footer-widgets .widget {
+  margin-bottom: 24px;
+}
+footer.site-footer .footer-widgets .widget .widget-title {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+footer.site-footer .widget_nav_menu ul li::before {
+  background-image: url("../../uploads/ft-aes-icon.png");
+  background-size: 20.4px 20.4px;
+  height: 20.4px;
+  width: 20.4px;
+  content: "";
+}
+
+.footer-copyright {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+ul.ft_contact {
+  margin: 0;
+}
+ul.ft_contact li {
+  margin: 0;
+  list-style: none;
+  line-height: 36px;
+  padding-left: 36px;
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+ul.ft_contact li.phone {
+  background-image: url("../../uploads/2020/01/icon-ph.png");
+}
+ul.ft_contact li.email {
+  background-image: url("../../uploads/2020/01/icon-email.png");
+}
+ul.ft_contact li.address {
+  background-image: url("../../uploads/2020/01/icon-pin.png");
+}
+
+ul.ft-social-icons {
+  margin: 0;
+}
+ul.ft-social-icons li {
+  margin: 0;
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+/* 0800 phone number */
+.phone a[href*="tel:"] {
+  /* pointer-events: none; */
+  color: #ffffff;
+  text-decoration: none !important;
+}
+
+ul.six-features {
+  text-align: center;
+  margin: 0;
+}
+ul.six-features:before, ul.six-features:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ul.six-features li {
+  display: block;
+  float: left;
+  padding: 12px;
+  width: 50%;
+}
+@media only screen and (min-width: 768px) {
+  ul.six-features li {
+    width: 33.33%;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  ul.six-features li {
+    width: 16.66%;
+  }
+}
+ul.six-features li img {
+  width: 100%;
+}
+
+ul.aes-steps {
+  text-align: center;
+  margin-bottom: 5px;
+}
+ul.aes-steps li {
+  display: inline-block;
+  padding: 0 12px;
+}
+ul.aes-steps li img {
+  max-width: 200px;
+}
+
+#how-it-works {
+  padding-top: 72px;
+}
+
+.entry-content h2 {
+  margin-top: 0.5em !important;
+}
+
+/*# sourceMappingURL=style.css.map */

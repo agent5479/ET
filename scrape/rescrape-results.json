@@ -1,0 +1,365 @@
+{
+  "at": "2026-08-21T06:03:09.356Z",
+  "results": [
+    {
+      "url": "https://www.et.nz/case-studies-technical/",
+      "finalUrl": "https://www.et.nz/case-studies-technical/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\case-studies-technical\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/members-home-page/",
+      "finalUrl": "https://www.et.nz/members-home-page/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\members-home-page\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/seasonal-worker-accommodation/",
+      "finalUrl": "https://www.et.nz/seasonal-worker-accommodation/",
+      "status": 404,
+      "action": "skip-http"
+    },
+    {
+      "url": "https://www.et.nz/secure/",
+      "finalUrl": "https://aes.et.nz/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/brochure-3/",
+      "finalUrl": "https://www.et.nz/brochure-3/",
+      "status": 404,
+      "action": "skip-http"
+    },
+    {
+      "url": "https://www.et.nz/residential/",
+      "finalUrl": "https://www.et.nz/residential/",
+      "status": 404,
+      "action": "skip-http"
+    },
+    {
+      "url": "https://www.et.nz/faq/",
+      "finalUrl": "https://www.et.nz/faq/",
+      "status": 404,
+      "action": "skip-http"
+    },
+    {
+      "url": "https://www.et.nz/products/aes-components/",
+      "finalUrl": "https://www.et.nz/aes-components/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\aes-components\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/products/tuf-tite/",
+      "finalUrl": "https://www.et.nz/tuf-tite/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\tuf-tite\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/products/salcor-uv-disinfection-unit/",
+      "finalUrl": "https://www.et.nz/salcor-uv-disinfection-unit/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\salcor-uv-disinfection-unit\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/products/greywater-recycling/",
+      "finalUrl": "https://www.et.nz/greywater-recycling/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\greywater-recycling\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/",
+      "finalUrl": "https://www.et.nz/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/about-us/",
+      "finalUrl": "https://www.et.nz/about-us/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\about-us\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/aes-certification-videos/",
+      "finalUrl": "https://www.et.nz/aes-certification-videos/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\aes-certification-videos\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/aes-components/",
+      "finalUrl": "https://www.et.nz/aes-components/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\aes-components\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/aes-online-training-course/",
+      "finalUrl": "https://www.et.nz/aes-online-training-course/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\aes-online-training-course\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/case-studies/",
+      "finalUrl": "https://www.et.nz/case-studies/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\case-studies\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/commercial/",
+      "finalUrl": "https://www.et.nz/commercial/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\commercial\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/community/",
+      "finalUrl": "https://www.et.nz/community/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\community\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/contact-us/",
+      "finalUrl": "https://www.et.nz/contact-us/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\contact-us\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/design-aids/",
+      "finalUrl": "https://www.et.nz/design-aids/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\design-aids\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/design-drawings/",
+      "finalUrl": "https://www.et.nz/design-drawings/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\design-drawings\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/designers-installers/",
+      "finalUrl": "https://www.et.nz/designers-installers/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\designers-installers\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/designers/",
+      "finalUrl": "https://www.et.nz/designers/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\designers\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/disclaimer-and-copyright/",
+      "finalUrl": "https://www.et.nz/disclaimer-and-copyright/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\disclaimer-and-copyright\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/documents/",
+      "finalUrl": "https://www.et.nz/documents/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\documents\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/enquiry/",
+      "finalUrl": "https://www.et.nz/enquiry/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\enquiry\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/et-shop/",
+      "finalUrl": "https://www.et.nz/et-shop/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\et-shop\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/greywater-recycling/",
+      "finalUrl": "https://www.et.nz/greywater-recycling/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\greywater-recycling\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/homeowners/",
+      "finalUrl": "https://www.et.nz/homeowners/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\homeowners\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/how-it-works/",
+      "finalUrl": "https://www.et.nz/how-it-works/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\how-it-works\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/installation-aids/",
+      "finalUrl": "https://www.et.nz/installation-aids/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\installation-aids\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/installations/",
+      "finalUrl": "https://www.et.nz/installations/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\installations\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/installers/",
+      "finalUrl": "https://www.et.nz/installers/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\installers\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/large-scale-projects/",
+      "finalUrl": "https://www.et.nz/large-scale-projects/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\large-scale-projects\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/marketing-material/",
+      "finalUrl": "https://www.et.nz/marketing-material/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\marketing-material\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/news-events/",
+      "finalUrl": "https://www.et.nz/news-events/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\news-events\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/oset-testing/",
+      "finalUrl": "https://www.et.nz/oset-testing/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\oset-testing\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/presby-environmental-inc/",
+      "finalUrl": "https://www.et.nz/presby-environmental-inc/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\presby-environmental-inc\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/price-request/",
+      "finalUrl": "https://www.et.nz/price-request/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\price-request\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/privacy-policy-2/",
+      "finalUrl": "https://www.et.nz/privacy-policy-2/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\privacy-policy-2\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/products-from-et/",
+      "finalUrl": "https://www.et.nz/products-from-et/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\products-from-et\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/products/",
+      "finalUrl": "https://www.et.nz/products/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\products\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/resources/",
+      "finalUrl": "https://www.et.nz/resources/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\resources\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/salcor-uv-disinfection-unit/",
+      "finalUrl": "https://www.et.nz/salcor-uv-disinfection-unit/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\salcor-uv-disinfection-unit\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/shop/",
+      "finalUrl": "https://www.et.nz/shop/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\shop\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/system-sand-suppliers/",
+      "finalUrl": "https://www.et.nz/system-sand-suppliers/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\system-sand-suppliers\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/system-sand/",
+      "finalUrl": "https://www.et.nz/system-sand/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\system-sand\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/the-aes-system/",
+      "finalUrl": "https://www.et.nz/the-aes-system/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\the-aes-system\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/tuf-tite/",
+      "finalUrl": "https://www.et.nz/tuf-tite/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\tuf-tite\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/videos/",
+      "finalUrl": "https://www.et.nz/videos/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\videos\\index.html"
+    },
+    {
+      "url": "https://www.et.nz/warranty/",
+      "finalUrl": "https://www.et.nz/warranty/",
+      "status": 200,
+      "action": "saved",
+      "local": "public\\mirror\\warranty\\index.html"
+    }
+  ]
+}

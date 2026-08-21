@@ -1,0 +1,28 @@
+{
+  "name": "et-nz-replica",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "scrape": "node scripts/discover-all.mjs && node scripts/scrape-site.mjs && node scripts/scrape-extra-pages.mjs && node scripts/scrape-missing.mjs && node scripts/wire-parity.mjs && node scripts/fetch-missing-assets.mjs",
+    "scrape:discover": "node scripts/discover-all.mjs",
+    "scrape:wire": "node scripts/wire-parity.mjs",
+    "scrape:fix": "node scripts/wire-parity.mjs",
+    "scrape:assets": "node scripts/fetch-missing-assets.mjs",
+    "scrape:extra": "node scripts/scrape-extra-pages.mjs",
+    "scrape:missing": "node scripts/scrape-missing.mjs",
+    "verify:parity": "node scripts/verify-parity.mjs",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.5.0",
+    "vite": "^6.3.5"
+  }
+}

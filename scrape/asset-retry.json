@@ -1,0 +1,262 @@
+{
+  "at": "2026-08-21T06:03:30.462Z",
+  "ok": 29,
+  "skip": 576,
+  "failed": [
+    {
+      "relPath": "/wp-content/contact-us",
+      "status": "fail",
+      "error": "EISDIR: illegal operation on a directory, open 'C:\\GitHub\\ET\\public\\mirror\\wp-content\\contact-us'"
+    },
+    {
+      "relPath": "/wp-content/plugins/wpforms-lite/assets/images/crop.svg",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/plugins/wpforms-lite/assets/pro/images/camera-rotate.svg",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/plugins/wpforms-lite/assets/pro/images/camera-video.svg",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/plugins/wpforms-lite/assets/pro/images/camera.svg",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/plugins/wpforms-lite/assets/pro/images/cancel.svg",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/plugins/wpforms-lite/assets/pro/images/crop.svg",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/plugins/wpforms-lite/assets/pro/images/times-solid-white.svg",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/plugins/wpforms-lite/assets/pro/images/trash.svg",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/7_port_distribution_box_riser_information.pdf.pdf",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/9_port_distribution_box_ with Riser information.pdf",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/AES_Design_Calculator_38L.xls",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/Environment_Technology_AES_Newsletter_April_2015.pdf",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/Environment_Technology_AES_Newsletter_December_2015.pdf",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/Environment_Technology_AES_Newsletter_January_2015.pdf",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/Environment_Technology_AES_Newsletter_June_2015.pdf",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/Environment_Technology_AES_Newsletter_November_2014.pdf",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/Environment_Technology_AES_Newsletter_September_2015.pdf",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/Environment_Technology_Notes_to_OSET_T12_Certificate_of_performance-1.pdf",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/Raised-connection-.pdf",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/You-Tube-150x71-1.png\n",
+      "status": "fail",
+      "error": "ENOENT: no such file or directory, open 'C:\\GitHub\\ET\\public\\mirror\\wp-content\\uploads\\You-Tube-150x71-1.png\n'"
+    },
+    {
+      "relPath": "/wp-content/uploads/aes_db4_7_distribution_box_details.dwg",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/aes_det01_system_details_sheet_one.dwg",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/aes_lb02_lined_aes_bed_two_row.dwg",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/aes_lb03_lined_aes_bed_three_row.dwg",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/aes_lb03rgd_lined_recirculation_aes_bed_gravity_discharge.dwg",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/aes_lb03rpd_lined_recirculation_aes_bed_pumped_discharge.dwg",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/aes_lb04_lined_aes_bed_four_row.dwg",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/aes_pc01_pump_chamber_section-1.dwg",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/aes_pcrgd_pump_chamber_recirc_uv_gravity_discharge.dwg",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/aes_pcrpd_pump_chamber_recirc_uv_pumped_discharge.dwg",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/aes_rb02_raised_aes_bed_two_row.dwg",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/aes_rb03_raised_aes_bed_three_row.dwg",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/aes_rb04_raised_aes_bed_four_row.dwg",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/aes_sb01_standard_aes_bed_one_row.dwg",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/aes_sb02_standard_aes_bed_two_row.dwg",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/aes_sb03_standard_aes_bed_three_row.dwg",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/aes_sb04_standard_aes_bed_four_row.dwg",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/aes_sb05vo_standard_aes_bed_five_plus_row_other_end.dwg",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/aes_sb06vs_standard_aes_bed_six_plus_row_same_end.dwg",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/aes_tl_traffic_loading_on_aes_bed.dwg",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/aes_va_aes_bed_venting_arrangements.dwg",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/aes_vc_venting_aes_bed_capped_outlet_tee.dwg",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/aes_vc_venting_aes_bed_w_capped_outlet_tee_v2.pdf",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/aes_vd_venting_aes_bed_distribution_box.dwg",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/aes_vv_venting_aes_bed_velocity_reducer_pumped.dwg",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/aes_vw_venting_aes_bed_water_trap.dwg",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/david_presby.jpg",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/environmenttechnology_news_december_2016.pdf",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/presby_company.jpg",
+      "status": "fail",
+      "error": "HTTP 404"
+    },
+    {
+      "relPath": "/wp-content/uploads/presby_manufacturing.jpg",
+      "status": "fail",
+      "error": "HTTP 404"
+    }
+  ]
+}

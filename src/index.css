@@ -1,0 +1,42 @@
+/* global layout helpers used by pages */
+.et-section {
+  padding: clamp(2.5rem, 6vw, 4.5rem) clamp(1.25rem, 4vw, 3rem);
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.et-section h1 {
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+  margin: 0 0 0.75rem;
+  color: var(--et-forest);
+}
+
+.et-lede {
+  margin: 0 0 1.25rem;
+  max-width: 40rem;
+  font-size: 1.08rem;
+}
+
+.et-pillars {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+}
+
+.et-pillars li {
+  padding: 1rem 0;
+  border-top: 2px solid var(--et-sea);
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-family: var(--font-ui);
+}
+
+.et-pillars a {
+  text-decoration: none;
+  color: inherit;
+}

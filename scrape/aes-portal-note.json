@@ -1,0 +1,8 @@
+{
+  "at": "2026-08-21T06:06:34.881Z",
+  "wwwSecure": "https://www.et.nz/secure/",
+  "redirectsTo": "https://aes.et.nz/",
+  "fetched": "https://aes.et.nz/",
+  "bytes": 16691,
+  "note": "Training/exam portal is on aes.et.nz — simulate in React; do not overwrite www homepage when following /secure/."
+}

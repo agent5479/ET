@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+scrape-run.log
+scrape-fix.log
+scrape-extra.log
+.env
+.env.*

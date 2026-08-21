@@ -1,0 +1,17 @@
+[
+  {
+    "url": "https://www.et.nz/brochure-3/",
+    "error": "HTTP 404",
+    "at": "2026-08-21T05:58:45.683Z"
+  },
+  {
+    "url": "https://www.et.nz/faq/",
+    "error": "HTTP 404",
+    "at": "2026-08-21T05:58:46.191Z"
+  },
+  {
+    "url": "https://www.et.nz/residential/",
+    "error": "HTTP 404",
+    "at": "2026-08-21T05:58:47.109Z"
+  }
+]

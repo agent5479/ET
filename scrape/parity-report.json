@@ -1,0 +1,353 @@
+{
+  "at": "2026-08-21T06:11:31.961Z",
+  "base": "http://localhost:5173",
+  "pages": [
+    {
+      "path": "/",
+      "url": "http://localhost:5173/mirror/index.html",
+      "status": 200,
+      "bytes": 264654,
+      "pass": true
+    },
+    {
+      "path": "/about-us/",
+      "url": "http://localhost:5173/mirror/about-us/index.html",
+      "status": 200,
+      "bytes": 179156,
+      "pass": true
+    },
+    {
+      "path": "/aes-certification-videos/",
+      "url": "http://localhost:5173/mirror/aes-certification-videos/index.html",
+      "status": 200,
+      "bytes": 163436,
+      "pass": true
+    },
+    {
+      "path": "/aes-components/",
+      "url": "http://localhost:5173/mirror/aes-components/index.html",
+      "status": 200,
+      "bytes": 179744,
+      "pass": true
+    },
+    {
+      "path": "/aes-online-training-course/",
+      "url": "http://localhost:5173/mirror/aes-online-training-course/index.html",
+      "status": 200,
+      "bytes": 166032,
+      "pass": true
+    },
+    {
+      "path": "/case-studies/",
+      "url": "http://localhost:5173/mirror/case-studies/index.html",
+      "status": 200,
+      "bytes": 225472,
+      "pass": true
+    },
+    {
+      "path": "/case-studies-technical/",
+      "url": "http://localhost:5173/mirror/case-studies-technical/index.html",
+      "status": 200,
+      "bytes": 197894,
+      "pass": true
+    },
+    {
+      "path": "/commercial/",
+      "url": "http://localhost:5173/mirror/commercial/index.html",
+      "status": 200,
+      "bytes": 177528,
+      "pass": true
+    },
+    {
+      "path": "/community/",
+      "url": "http://localhost:5173/mirror/community/index.html",
+      "status": 200,
+      "bytes": 173379,
+      "pass": true
+    },
+    {
+      "path": "/contact-us/",
+      "url": "http://localhost:5173/mirror/contact-us/index.html",
+      "status": 200,
+      "bytes": 174828,
+      "pass": true
+    },
+    {
+      "path": "/design-aids/",
+      "url": "http://localhost:5173/mirror/design-aids/index.html",
+      "status": 200,
+      "bytes": 188616,
+      "pass": true
+    },
+    {
+      "path": "/design-drawings/",
+      "url": "http://localhost:5173/mirror/design-drawings/index.html",
+      "status": 200,
+      "bytes": 168660,
+      "pass": true
+    },
+    {
+      "path": "/designers/",
+      "url": "http://localhost:5173/mirror/designers/index.html",
+      "status": 200,
+      "bytes": 190313,
+      "pass": true
+    },
+    {
+      "path": "/designers-installers/",
+      "url": "http://localhost:5173/mirror/designers-installers/index.html",
+      "status": 200,
+      "bytes": 194184,
+      "pass": true
+    },
+    {
+      "path": "/disclaimer-and-copyright/",
+      "url": "http://localhost:5173/mirror/disclaimer-and-copyright/index.html",
+      "status": 200,
+      "bytes": 167564,
+      "pass": true
+    },
+    {
+      "path": "/documents/",
+      "url": "http://localhost:5173/mirror/documents/index.html",
+      "status": 200,
+      "bytes": 161032,
+      "pass": true
+    },
+    {
+      "path": "/enquiry/",
+      "url": "http://localhost:5173/mirror/enquiry/index.html",
+      "status": 200,
+      "bytes": 176268,
+      "pass": true
+    },
+    {
+      "path": "/et-shop/",
+      "url": "http://localhost:5173/mirror/et-shop/index.html",
+      "status": 200,
+      "bytes": 162902,
+      "pass": true
+    },
+    {
+      "path": "/greywater-recycling/",
+      "url": "http://localhost:5173/mirror/greywater-recycling/index.html",
+      "status": 200,
+      "bytes": 177371,
+      "pass": true
+    },
+    {
+      "path": "/homeowners/",
+      "url": "http://localhost:5173/mirror/homeowners/index.html",
+      "status": 200,
+      "bytes": 184949,
+      "pass": true
+    },
+    {
+      "path": "/how-it-works/",
+      "url": "http://localhost:5173/mirror/how-it-works/index.html",
+      "status": 200,
+      "bytes": 179411,
+      "pass": true
+    },
+    {
+      "path": "/installation-aids/",
+      "url": "http://localhost:5173/mirror/installation-aids/index.html",
+      "status": 200,
+      "bytes": 183461,
+      "pass": true
+    },
+    {
+      "path": "/installations/",
+      "url": "http://localhost:5173/mirror/installations/index.html",
+      "status": 200,
+      "bytes": 180691,
+      "pass": true
+    },
+    {
+      "path": "/installers/",
+      "url": "http://localhost:5173/mirror/installers/index.html",
+      "status": 200,
+      "bytes": 189868,
+      "pass": true
+    },
+    {
+      "path": "/large-scale-projects/",
+      "url": "http://localhost:5173/mirror/large-scale-projects/index.html",
+      "status": 200,
+      "bytes": 188252,
+      "pass": true
+    },
+    {
+      "path": "/marketing-material/",
+      "url": "http://localhost:5173/mirror/marketing-material/index.html",
+      "status": 200,
+      "bytes": 175460,
+      "pass": true
+    },
+    {
+      "path": "/media/",
+      "url": "http://localhost:5173/mirror/media/index.html",
+      "status": 200,
+      "bytes": 181194,
+      "pass": true
+    },
+    {
+      "path": "/members-home-page/",
+      "url": "http://localhost:5173/mirror/members-home-page/index.html",
+      "status": 200,
+      "bytes": 229820,
+      "pass": true
+    },
+    {
+      "path": "/news-events/",
+      "url": "http://localhost:5173/mirror/news-events/index.html",
+      "status": 200,
+      "bytes": 181200,
+      "pass": true
+    },
+    {
+      "path": "/oset-testing/",
+      "url": "http://localhost:5173/mirror/oset-testing/index.html",
+      "status": 200,
+      "bytes": 183938,
+      "pass": true
+    },
+    {
+      "path": "/presby-environmental-inc/",
+      "url": "http://localhost:5173/mirror/presby-environmental-inc/index.html",
+      "status": 200,
+      "bytes": 171632,
+      "pass": true
+    },
+    {
+      "path": "/price-request/",
+      "url": "http://localhost:5173/mirror/price-request/index.html",
+      "status": 200,
+      "bytes": 191768,
+      "pass": true
+    },
+    {
+      "path": "/privacy-policy-2/",
+      "url": "http://localhost:5173/mirror/privacy-policy-2/index.html",
+      "status": 200,
+      "bytes": 166149,
+      "pass": true
+    },
+    {
+      "path": "/products/",
+      "url": "http://localhost:5173/mirror/products/index.html",
+      "status": 200,
+      "bytes": 178513,
+      "pass": true
+    },
+    {
+      "path": "/products-from-et/",
+      "url": "http://localhost:5173/mirror/products-from-et/index.html",
+      "status": 200,
+      "bytes": 177040,
+      "pass": true
+    },
+    {
+      "path": "/resources/",
+      "url": "http://localhost:5173/mirror/resources/index.html",
+      "status": 200,
+      "bytes": 186031,
+      "pass": true
+    },
+    {
+      "path": "/salcor-uv-disinfection-unit/",
+      "url": "http://localhost:5173/mirror/salcor-uv-disinfection-unit/index.html",
+      "status": 200,
+      "bytes": 182701,
+      "pass": true
+    },
+    {
+      "path": "/shop/",
+      "url": "http://localhost:5173/mirror/shop/index.html",
+      "status": 200,
+      "bytes": 158721,
+      "pass": true
+    },
+    {
+      "path": "/system-sand/",
+      "url": "http://localhost:5173/mirror/system-sand/index.html",
+      "status": 200,
+      "bytes": 181874,
+      "pass": true
+    },
+    {
+      "path": "/system-sand-suppliers/",
+      "url": "http://localhost:5173/mirror/system-sand-suppliers/index.html",
+      "status": 200,
+      "bytes": 196152,
+      "pass": true
+    },
+    {
+      "path": "/the-aes-system/",
+      "url": "http://localhost:5173/mirror/the-aes-system/index.html",
+      "status": 200,
+      "bytes": 214683,
+      "pass": true
+    },
+    {
+      "path": "/tuf-tite/",
+      "url": "http://localhost:5173/mirror/tuf-tite/index.html",
+      "status": 200,
+      "bytes": 190416,
+      "pass": true
+    },
+    {
+      "path": "/videos/",
+      "url": "http://localhost:5173/mirror/videos/index.html",
+      "status": 200,
+      "bytes": 177560,
+      "pass": true
+    },
+    {
+      "path": "/warranty/",
+      "url": "http://localhost:5173/mirror/warranty/index.html",
+      "status": 200,
+      "bytes": 171154,
+      "pass": true
+    }
+  ],
+  "assets": [
+    {
+      "asset": "/mirror/wp-content/themes/storefront/style.css",
+      "status": 200,
+      "bytes": 40381,
+      "pass": true
+    },
+    {
+      "asset": "/mirror/wp-content/themes/storefront-child/style.css",
+      "status": 200,
+      "bytes": 9847,
+      "pass": true
+    },
+    {
+      "asset": "/mirror/wp-content/themes/storefront/assets/css/base/icons.css",
+      "status": 200,
+      "bytes": 80235,
+      "pass": true
+    },
+    {
+      "asset": "/mirror/wp-content/uploads/AES_logo.png",
+      "status": 200,
+      "bytes": 11110,
+      "pass": true
+    },
+    {
+      "asset": "/mirror/wp-content/uploads/logo-sm.png",
+      "status": 200,
+      "bytes": 18526,
+      "pass": true
+    },
+    {
+      "asset": "/mirror/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist/smartslider.min.css",
+      "status": 200,
+      "bytes": 22276,
+      "pass": true
+    }
+  ],
+  "ok": true
+}

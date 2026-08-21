@@ -1,0 +1,45 @@
+:root {
+  /* Environment Technology — earth / water industrial (not purple/cream AI defaults) */
+  --et-ink: #13261c;
+  --et-forest: #1e4d36;
+  --et-sea: #2a6f6a;
+  --et-sand: #c4b49a;
+  --et-mist: #e7efe9;
+  --et-paper: #f3f6f2;
+  --et-accent: #c45c26;
+  --et-white: #ffffff;
+  --font-display: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --font-body: "Source Serif 4", "Palatino Linotype", Palatino, serif;
+  --font-ui: "IBM Plex Sans", "Segoe UI", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--et-ink);
+  background: var(--et-paper);
+  line-height: 1.55;
+}
+
+a {
+  color: var(--et-forest);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#root {
+  min-height: 100vh;
+}

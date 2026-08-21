@@ -1,0 +1,4369 @@
+{
+  "discoveredAt": "2026-08-21T06:02:33.254Z",
+  "totals": {
+    "pages": 228,
+    "assets": 324,
+    "other": 0,
+    "missingPages": 13
+  },
+  "missingPages": [
+    {
+      "href": "https://www.et.nz/brochure-3/",
+      "sources": [
+        "mirror:index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/case-studies-technical/",
+      "sources": [
+        "rest:pages"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/comments/feed/",
+      "sources": [
+        "mirror:media\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:tuf-tite\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/comments/feed/index.html",
+      "sources": [
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/members-home-page/",
+      "sources": [
+        "rest:pages"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/products/aes-components/",
+      "sources": [
+        "mirror:media\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:tuf-tite\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/products/greywater-recycling/",
+      "sources": [
+        "mirror:media\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:tuf-tite\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/products/salcor-uv-disinfection-unit/",
+      "sources": [
+        "mirror:media\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:tuf-tite\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/products/tuf-tite/",
+      "sources": [
+        "mirror:media\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:tuf-tite\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/residential/",
+      "sources": [
+        "mirror:index.html",
+        "mirror:installations\\index.html",
+        "mirror:the-aes-system\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/seasonal-worker-accommodation/index.html",
+      "sources": [
+        "mirror:index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/secure/index.html",
+      "sources": [
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:designers-installers\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/contact-us/index.html",
+      "sources": [
+        "mirror:index.html"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "href": "https://www.et.nz/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=108/index.html",
+      "sources": [
+        "mirror:the-aes-system\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=1115/index.html",
+      "sources": [
+        "mirror:installations\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=113/index.html",
+      "sources": [
+        "mirror:resources\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=1151/index.html",
+      "sources": [
+        "mirror:et-shop\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=121/index.html",
+      "sources": [
+        "mirror:designers\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=1545/index.html",
+      "sources": [
+        "mirror:design-aids\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=1563/index.html",
+      "sources": [
+        "mirror:installation-aids\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=177/index.html",
+      "sources": [
+        "mirror:large-scale-projects\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=205/index.html",
+      "sources": [
+        "mirror:documents\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=208/index.html",
+      "sources": [
+        "mirror:marketing-material\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=211/index.html",
+      "sources": [
+        "mirror:case-studies\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=2271/index.html",
+      "sources": [
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=232/index.html",
+      "sources": [
+        "mirror:greywater-recycling\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=235/index.html",
+      "sources": [
+        "mirror:oset-testing\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=238/index.html",
+      "sources": [
+        "mirror:presby-environmental-inc\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=241/index.html",
+      "sources": [
+        "mirror:aes-certification-videos\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=245/index.html",
+      "sources": [
+        "mirror:aes-online-training-course\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=248/index.html",
+      "sources": [
+        "mirror:commercial\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=251/index.html",
+      "sources": [
+        "mirror:community\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=2536/index.html",
+      "sources": [
+        "mirror:designers-installers\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=260/index.html",
+      "sources": [
+        "mirror:disclaimer-and-copyright\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=294",
+      "sources": [
+        "mirror:media\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=294/index.html",
+      "sources": [
+        "mirror:news-events\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=2947/index.html",
+      "sources": [
+        "mirror:products-from-et\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=3063/index.html",
+      "sources": [
+        "mirror:design-drawings\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=311/index.html",
+      "sources": [
+        "mirror:price-request\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=314/index.html",
+      "sources": [
+        "mirror:privacy-policy-2\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=332/index.html",
+      "sources": [
+        "mirror:salcor-uv-disinfection-unit\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=338",
+      "sources": [
+        "mirror:system-sand-suppliers\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=341",
+      "sources": [
+        "mirror:tuf-tite\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=344/index.html",
+      "sources": [
+        "mirror:videos\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=348/index.html",
+      "sources": [
+        "mirror:shop\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=413/index.html",
+      "sources": [
+        "mirror:installers\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=445/index.html",
+      "sources": [
+        "mirror:products\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=789/index.html",
+      "sources": [
+        "mirror:enquiry\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=84/index.html",
+      "sources": [
+        "mirror:how-it-works\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=882/index.html",
+      "sources": [
+        "mirror:aes-components\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=90/index.html",
+      "sources": [
+        "mirror:contact-us\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=92/index.html",
+      "sources": [
+        "mirror:about-us\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=927/index.html",
+      "sources": [
+        "mirror:system-sand\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/?p=976/index.html",
+      "sources": [
+        "mirror:homeowners\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/about-us/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/aes-certification-videos/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:installers\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/aes-components/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/aes-online-training-course/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/brochure-3/",
+      "sources": [
+        "mirror:index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/case-studies-technical/",
+      "sources": [
+        "rest:pages"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/case-studies/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/comments/feed/",
+      "sources": [
+        "mirror:media\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:tuf-tite\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/comments/feed/index.html",
+      "sources": [
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/commercial/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/community/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/contact-us/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/design-aids/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/design-drawings/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/designers-installers/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/designers/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:designers\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/disclaimer-and-copyright/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/documents/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/enquiry/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:enquiry\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/et-shop/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:et-shop\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/feed/",
+      "sources": [
+        "mirror:media\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:tuf-tite\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/feed/index.html",
+      "sources": [
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/greywater-recycling/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/homeowners/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/how-it-works/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/installation-aids/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/installations/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/installers/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:installers\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/large-scale-projects/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/marketing-material/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:marketing-material\\index.html",
+        "mirror:resources\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/media/",
+      "sources": [
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/members-home-page/",
+      "sources": [
+        "rest:pages"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/news-events/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/oset-testing/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/presby-environmental-inc/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:presby-environmental-inc\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/price-request/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/privacy-policy-2/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/products-from-et/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/products/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:products\\index.html",
+        "mirror:tuf-tite\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/products/aes-components/",
+      "sources": [
+        "mirror:media\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:tuf-tite\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/products/greywater-recycling/",
+      "sources": [
+        "mirror:media\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:tuf-tite\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/products/salcor-uv-disinfection-unit/",
+      "sources": [
+        "mirror:media\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:tuf-tite\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/products/tuf-tite/",
+      "sources": [
+        "mirror:media\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:tuf-tite\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/residential/",
+      "sources": [
+        "mirror:index.html",
+        "mirror:installations\\index.html",
+        "mirror:the-aes-system\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/resources/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/salcor-uv-disinfection-unit/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/seasonal-worker-accommodation/index.html",
+      "sources": [
+        "mirror:index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/secure/index.html",
+      "sources": [
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:designers-installers\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/shop/",
+      "sources": [
+        "rest:pages",
+        "mirror:designers-installers\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:shop\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/system-sand-suppliers/",
+      "sources": [
+        "rest:pages",
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/system-sand/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/the-aes-system/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/tuf-tite/",
+      "sources": [
+        "rest:pages",
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/videos/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/warranty/",
+      "sources": [
+        "sitemap:https://www.et.nz/sitemap_index.xml",
+        "sitemap:https://www.et.nz/page-sitemap.xml",
+        "rest:pages",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/contact-us/index.html",
+      "sources": [
+        "mirror:index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/",
+      "sources": [
+        "mirror:media\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:tuf-tite\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/index.html",
+      "sources": [
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2F&/index.html",
+      "sources": [
+        "mirror:index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2F/index.html",
+      "sources": [
+        "mirror:index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fabout-us%2F&/index.html",
+      "sources": [
+        "mirror:about-us\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fabout-us%2F/index.html",
+      "sources": [
+        "mirror:about-us\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Faes-certification-videos%2F&/index.html",
+      "sources": [
+        "mirror:aes-certification-videos\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Faes-certification-videos%2F/index.html",
+      "sources": [
+        "mirror:aes-certification-videos\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Faes-components%2F&/index.html",
+      "sources": [
+        "mirror:aes-components\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Faes-components%2F/index.html",
+      "sources": [
+        "mirror:aes-components\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Faes-online-training-course%2F&/index.html",
+      "sources": [
+        "mirror:aes-online-training-course\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Faes-online-training-course%2F/index.html",
+      "sources": [
+        "mirror:aes-online-training-course\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fcase-studies%2F&/index.html",
+      "sources": [
+        "mirror:case-studies\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fcase-studies%2F/index.html",
+      "sources": [
+        "mirror:case-studies\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fcommercial%2F&/index.html",
+      "sources": [
+        "mirror:commercial\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fcommercial%2F/index.html",
+      "sources": [
+        "mirror:commercial\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fcommunity%2F&/index.html",
+      "sources": [
+        "mirror:community\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fcommunity%2F/index.html",
+      "sources": [
+        "mirror:community\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fcontact-us%2F&/index.html",
+      "sources": [
+        "mirror:contact-us\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fcontact-us%2F/index.html",
+      "sources": [
+        "mirror:contact-us\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fdesign-aids%2F&/index.html",
+      "sources": [
+        "mirror:design-aids\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fdesign-aids%2F/index.html",
+      "sources": [
+        "mirror:design-aids\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fdesign-drawings%2F&/index.html",
+      "sources": [
+        "mirror:design-drawings\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fdesign-drawings%2F/index.html",
+      "sources": [
+        "mirror:design-drawings\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fdesigners%2F&/index.html",
+      "sources": [
+        "mirror:designers\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fdesigners%2F/index.html",
+      "sources": [
+        "mirror:designers\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fdesigners-installers%2F&/index.html",
+      "sources": [
+        "mirror:designers-installers\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fdesigners-installers%2F/index.html",
+      "sources": [
+        "mirror:designers-installers\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fdisclaimer-and-copyright%2F&/index.html",
+      "sources": [
+        "mirror:disclaimer-and-copyright\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fdisclaimer-and-copyright%2F/index.html",
+      "sources": [
+        "mirror:disclaimer-and-copyright\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fdocuments%2F&/index.html",
+      "sources": [
+        "mirror:documents\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fdocuments%2F/index.html",
+      "sources": [
+        "mirror:documents\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fenquiry%2F&/index.html",
+      "sources": [
+        "mirror:enquiry\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fenquiry%2F/index.html",
+      "sources": [
+        "mirror:enquiry\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fet-shop%2F&/index.html",
+      "sources": [
+        "mirror:et-shop\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fet-shop%2F/index.html",
+      "sources": [
+        "mirror:et-shop\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fgreywater-recycling%2F&/index.html",
+      "sources": [
+        "mirror:greywater-recycling\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fgreywater-recycling%2F/index.html",
+      "sources": [
+        "mirror:greywater-recycling\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fhomeowners%2F&/index.html",
+      "sources": [
+        "mirror:homeowners\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fhomeowners%2F/index.html",
+      "sources": [
+        "mirror:homeowners\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fhow-it-works%2F&/index.html",
+      "sources": [
+        "mirror:how-it-works\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fhow-it-works%2F/index.html",
+      "sources": [
+        "mirror:how-it-works\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Finstallation-aids%2F&/index.html",
+      "sources": [
+        "mirror:installation-aids\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Finstallation-aids%2F/index.html",
+      "sources": [
+        "mirror:installation-aids\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Finstallations%2F&/index.html",
+      "sources": [
+        "mirror:installations\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Finstallations%2F/index.html",
+      "sources": [
+        "mirror:installations\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Finstallers%2F&/index.html",
+      "sources": [
+        "mirror:installers\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Finstallers%2F/index.html",
+      "sources": [
+        "mirror:installers\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Flarge-scale-projects%2F&/index.html",
+      "sources": [
+        "mirror:large-scale-projects\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Flarge-scale-projects%2F/index.html",
+      "sources": [
+        "mirror:large-scale-projects\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fmarketing-material%2F&/index.html",
+      "sources": [
+        "mirror:marketing-material\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fmarketing-material%2F/index.html",
+      "sources": [
+        "mirror:marketing-material\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fnews-events%2F&",
+      "sources": [
+        "mirror:media\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fnews-events%2F&/index.html",
+      "sources": [
+        "mirror:news-events\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fnews-events%2F",
+      "sources": [
+        "mirror:media\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fnews-events%2F/index.html",
+      "sources": [
+        "mirror:news-events\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Foset-testing%2F&/index.html",
+      "sources": [
+        "mirror:oset-testing\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Foset-testing%2F/index.html",
+      "sources": [
+        "mirror:oset-testing\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fpresby-environmental-inc%2F&/index.html",
+      "sources": [
+        "mirror:presby-environmental-inc\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fpresby-environmental-inc%2F/index.html",
+      "sources": [
+        "mirror:presby-environmental-inc\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fprice-request%2F&/index.html",
+      "sources": [
+        "mirror:price-request\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fprice-request%2F/index.html",
+      "sources": [
+        "mirror:price-request\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fprivacy-policy-2%2F&/index.html",
+      "sources": [
+        "mirror:privacy-policy-2\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fprivacy-policy-2%2F/index.html",
+      "sources": [
+        "mirror:privacy-policy-2\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fproducts%2F&/index.html",
+      "sources": [
+        "mirror:products\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fproducts%2F/index.html",
+      "sources": [
+        "mirror:products\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fproducts-from-et%2F&/index.html",
+      "sources": [
+        "mirror:products-from-et\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fproducts-from-et%2F/index.html",
+      "sources": [
+        "mirror:products-from-et\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fresources%2F&/index.html",
+      "sources": [
+        "mirror:resources\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fresources%2F/index.html",
+      "sources": [
+        "mirror:resources\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fsalcor-uv-disinfection-unit%2F&/index.html",
+      "sources": [
+        "mirror:salcor-uv-disinfection-unit\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fsalcor-uv-disinfection-unit%2F/index.html",
+      "sources": [
+        "mirror:salcor-uv-disinfection-unit\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fshop%2F&/index.html",
+      "sources": [
+        "mirror:shop\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fshop%2F/index.html",
+      "sources": [
+        "mirror:shop\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fsystem-sand%2F&/index.html",
+      "sources": [
+        "mirror:system-sand\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fsystem-sand%2F/index.html",
+      "sources": [
+        "mirror:system-sand\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fsystem-sand-suppliers%2F&",
+      "sources": [
+        "mirror:system-sand-suppliers\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fsystem-sand-suppliers%2F",
+      "sources": [
+        "mirror:system-sand-suppliers\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fthe-aes-system%2F&/index.html",
+      "sources": [
+        "mirror:the-aes-system\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fthe-aes-system%2F/index.html",
+      "sources": [
+        "mirror:the-aes-system\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Ftuf-tite%2F&",
+      "sources": [
+        "mirror:tuf-tite\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Ftuf-tite%2F",
+      "sources": [
+        "mirror:tuf-tite\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fvideos%2F&/index.html",
+      "sources": [
+        "mirror:videos\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fvideos%2F/index.html",
+      "sources": [
+        "mirror:videos\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fwarranty%2F&/index.html",
+      "sources": [
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.et.nz%2Fwarranty%2F/index.html",
+      "sources": [
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/108/index.html",
+      "sources": [
+        "mirror:the-aes-system\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/1115/index.html",
+      "sources": [
+        "mirror:installations\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/113/index.html",
+      "sources": [
+        "mirror:resources\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/1151/index.html",
+      "sources": [
+        "mirror:et-shop\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/121/index.html",
+      "sources": [
+        "mirror:designers\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/1545/index.html",
+      "sources": [
+        "mirror:design-aids\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/1563/index.html",
+      "sources": [
+        "mirror:installation-aids\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/17/index.html",
+      "sources": [
+        "mirror:index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/177/index.html",
+      "sources": [
+        "mirror:large-scale-projects\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/205/index.html",
+      "sources": [
+        "mirror:documents\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/208/index.html",
+      "sources": [
+        "mirror:marketing-material\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/211/index.html",
+      "sources": [
+        "mirror:case-studies\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/2271/index.html",
+      "sources": [
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/232/index.html",
+      "sources": [
+        "mirror:greywater-recycling\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/235/index.html",
+      "sources": [
+        "mirror:oset-testing\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/238/index.html",
+      "sources": [
+        "mirror:presby-environmental-inc\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/241/index.html",
+      "sources": [
+        "mirror:aes-certification-videos\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/245/index.html",
+      "sources": [
+        "mirror:aes-online-training-course\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/248/index.html",
+      "sources": [
+        "mirror:commercial\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/251/index.html",
+      "sources": [
+        "mirror:community\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/2536/index.html",
+      "sources": [
+        "mirror:designers-installers\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/260/index.html",
+      "sources": [
+        "mirror:disclaimer-and-copyright\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/294/",
+      "sources": [
+        "mirror:media\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/294/index.html",
+      "sources": [
+        "mirror:news-events\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/2947/index.html",
+      "sources": [
+        "mirror:products-from-et\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/3063/index.html",
+      "sources": [
+        "mirror:design-drawings\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/311/index.html",
+      "sources": [
+        "mirror:price-request\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/314/index.html",
+      "sources": [
+        "mirror:privacy-policy-2\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/332/index.html",
+      "sources": [
+        "mirror:salcor-uv-disinfection-unit\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/338/",
+      "sources": [
+        "mirror:system-sand-suppliers\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/341/",
+      "sources": [
+        "mirror:tuf-tite\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/344/index.html",
+      "sources": [
+        "mirror:videos\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/348/index.html",
+      "sources": [
+        "mirror:shop\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/413/index.html",
+      "sources": [
+        "mirror:installers\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/445/index.html",
+      "sources": [
+        "mirror:products\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/789/index.html",
+      "sources": [
+        "mirror:enquiry\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/84/index.html",
+      "sources": [
+        "mirror:how-it-works\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/882/index.html",
+      "sources": [
+        "mirror:aes-components\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/90/index.html",
+      "sources": [
+        "mirror:contact-us\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/92/index.html",
+      "sources": [
+        "mirror:about-us\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/927/index.html",
+      "sources": [
+        "mirror:system-sand\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-json/wp/v2/pages/976/index.html",
+      "sources": [
+        "mirror:homeowners\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/xmlrpc.php",
+      "sources": [
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/xmlrpc.php?rsd",
+      "sources": [
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    }
+  ],
+  "assetsSample": [
+    {
+      "href": "https://www.et.nz/wp-content/plugins/breeze/assets/js/js-front-end/breeze-prefetch-links.min.js?ver=2.5.13",
+      "sources": [
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/plugins/google-analytics-dashboard-for-wp/assets/js/frontend-gtag.min.js?ver=10.1.3",
+      "sources": [
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/plugins/responsive-accordion-and-collapse/css/bootstrap-front.css?ver=1fbf80ea2eeb83a207559034ac8810ad",
+      "sources": [
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/plugins/responsive-accordion-and-collapse/css/font-awesome/css/font-awesome.min.css?ver=1fbf80ea2eeb83a207559034ac8810ad",
+      "sources": [
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/plugins/responsive-accordion-and-collapse/js/accordion-custom.js?ver=1fbf80ea2eeb83a207559034ac8810ad",
+      "sources": [
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/plugins/responsive-accordion-and-collapse/js/accordion.js?ver=1fbf80ea2eeb83a207559034ac8810ad",
+      "sources": [
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist/n2.min.js?ver=1c12b24c",
+      "sources": [
+        "mirror:index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist/smartslider-frontend.min.js?ver=1c12b24c",
+      "sources": [
+        "mirror:index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Application/Frontend/Assets/dist/smartslider.min.css?ver=1c12b24c",
+      "sources": [
+        "mirror:index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Slider/SliderType/Simple/Assets/dist/ss-simple.min.js?ver=1c12b24c",
+      "sources": [
+        "mirror:index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Widget/Arrow/ArrowImage/Assets/dist/w-arrow-image.min.js?ver=1c12b24c",
+      "sources": [
+        "mirror:index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/plugins/smart-slider-3/Public/SmartSlider3/Widget/Bullet/Assets/dist/w-bullet.min.js?ver=1c12b24c",
+      "sources": [
+        "mirror:index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/plugins/wpforms-lite/assets/css/frontend/classic/wpforms-full.min.css?ver=2.0.0.5",
+      "sources": [
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/plugins/wpforms-lite/assets/js/frontend/analytics.min.js?ver=2.0.0.5",
+      "sources": [
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/plugins/wpforms-lite/assets/js/frontend/fields/address.min.js?ver=2.0.0.5",
+      "sources": [
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/plugins/wpforms-lite/assets/js/frontend/wpforms.min.js?ver=2.0.0.5",
+      "sources": [
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/plugins/wpforms-lite/assets/js/share/utils.min.js?ver=2.0.0.5",
+      "sources": [
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/plugins/wpforms-lite/assets/lib/jquery.validate.min.js?ver=1.21.0",
+      "sources": [
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/plugins/wpforms-lite/assets/lib/mailcheck.min.js?ver=1.1.2",
+      "sources": [
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/plugins/wpforms-lite/assets/lib/punycode.min.js?ver=1.0.0",
+      "sources": [
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/plugins/wpfront-scroll-top/includes/assets/wpfront-scroll-top.min.js?ver=3.0.1.09211",
+      "sources": [
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/themes/storefront-child/anchor-target.js",
+      "sources": [
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/themes/storefront-child/style.css?ver=1.2.3",
+      "sources": [
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/themes/storefront/assets/css/base/gutenberg-blocks.css?ver=4.6.1",
+      "sources": [
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/themes/storefront/assets/css/base/icons.css?ver=4.6.1",
+      "sources": [
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/themes/storefront/assets/js/navigation.min.js?ver=4.6.1",
+      "sources": [
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/themes/storefront/style.css?ver=4.6.1",
+      "sources": [
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/uploads/200000L-Case-Study-Blodgett-Landing.pdf",
+      "sources": [
+        "mirror:community\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/uploads/2020/01/AES_Lake_Mahinapua_DOC_camping_ground.jpg",
+      "sources": [
+        "mirror:large-scale-projects\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/uploads/2020/01/AES_Mahinapua_1.jpg",
+      "sources": [
+        "mirror:large-scale-projects\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/uploads/2020/01/AES_Mahinapua_2.jpg",
+      "sources": [
+        "mirror:large-scale-projects\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/uploads/2020/01/AES_hillsborough_hideaway.gif",
+      "sources": [
+        "mirror:large-scale-projects\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/uploads/2020/01/AES_hillsborough_hideaway2.gif",
+      "sources": [
+        "mirror:large-scale-projects\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/uploads/2020/01/AES_wastewater_treatment_system_model.gif",
+      "sources": [
+        "mirror:the-aes-system\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/uploads/2020/01/icon-fb.png",
+      "sources": [
+        "mirror:et-shop\\index.html",
+        "mirror:products\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/uploads/2020/01/icon-linked.png",
+      "sources": [
+        "mirror:et-shop\\index.html",
+        "mirror:products\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/uploads/2020/01/img-warranty.png",
+      "sources": [
+        "mirror:index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/uploads/2020/01/steps.png",
+      "sources": [
+        "mirror:index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/uploads/4HD2_BROCHURE.pdf",
+      "sources": [
+        "mirror:tuf-tite\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/uploads/7_port_distribution_box_information.pdf",
+      "sources": [
+        "mirror:tuf-tite\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/uploads/7_port_distribution_box_riser_information.pdf",
+      "sources": [
+        "mirror:tuf-tite\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/uploads/7_port_distribution_box_riser_information.pdf.pdf",
+      "sources": [
+        "mirror:tuf-tite\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/uploads/9_port_distribution_box_%20with%20Riser%20information.pdf",
+      "sources": [
+        "mirror:tuf-tite\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/uploads/9_port_distribution_box_-with-Riser-information.pdf",
+      "sources": [
+        "mirror:tuf-tite\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/uploads/9_port_distribution_box_information.pdf",
+      "sources": [
+        "mirror:tuf-tite\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/uploads/AES-20-Year-Warranty.png",
+      "sources": [
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/uploads/AES-Brochure_2019.jpg",
+      "sources": [
+        "mirror:about-us\\index.html",
+        "mirror:aes-certification-videos\\index.html",
+        "mirror:aes-components\\index.html",
+        "mirror:aes-online-training-course\\index.html",
+        "mirror:case-studies\\index.html",
+        "mirror:commercial\\index.html",
+        "mirror:community\\index.html",
+        "mirror:contact-us\\index.html",
+        "mirror:design-aids\\index.html",
+        "mirror:design-drawings\\index.html",
+        "mirror:designers\\index.html",
+        "mirror:designers-installers\\index.html",
+        "mirror:disclaimer-and-copyright\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:enquiry\\index.html",
+        "mirror:et-shop\\index.html",
+        "mirror:greywater-recycling\\index.html",
+        "mirror:homeowners\\index.html",
+        "mirror:how-it-works\\index.html",
+        "mirror:index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:installations\\index.html",
+        "mirror:installers\\index.html",
+        "mirror:large-scale-projects\\index.html",
+        "mirror:marketing-material\\index.html",
+        "mirror:media\\index.html",
+        "mirror:news-events\\index.html",
+        "mirror:oset-testing\\index.html",
+        "mirror:presby-environmental-inc\\index.html",
+        "mirror:price-request\\index.html",
+        "mirror:privacy-policy-2\\index.html",
+        "mirror:products\\index.html",
+        "mirror:products-from-et\\index.html",
+        "mirror:resources\\index.html",
+        "mirror:salcor-uv-disinfection-unit\\index.html",
+        "mirror:shop\\index.html",
+        "mirror:system-sand\\index.html",
+        "mirror:system-sand-suppliers\\index.html",
+        "mirror:the-aes-system\\index.html",
+        "mirror:tuf-tite\\index.html",
+        "mirror:videos\\index.html",
+        "mirror:warranty\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/uploads/AES-ESP-Example-Site-Plan-HO-200814.pdf",
+      "sources": [
+        "mirror:design-aids\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/uploads/AES-ESPM-Example-Site-Plan-Template-Min-Requirement-HO-210528.pdf",
+      "sources": [
+        "mirror:design-aids\\index.html"
+      ]
+    },
+    {
+      "href": "https://www.et.nz/wp-content/uploads/AES-Homeowners-Manual-2021-June.pdf",
+      "sources": [
+        "mirror:design-aids\\index.html",
+        "mirror:documents\\index.html",
+        "mirror:installation-aids\\index.html",
+        "mirror:resources\\index.html"
+      ]
+    }
+  ]
+}

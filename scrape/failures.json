@@ -1,0 +1,98 @@
+{
+  "scrapedAt": "2026-08-21T05:57:01.705Z",
+  "timeoutMs": 12000,
+  "pagesAttempted": 39,
+  "assetsDownloaded": 614,
+  "failed": [
+    {
+      "url": "https://www.et.nz/wp-content/uploads/presby_company.jpg",
+      "error": "HTTP 404",
+      "type": "asset"
+    },
+    {
+      "url": "https://www.et.nz/wp-content/uploads/david_presby.jpg",
+      "error": "HTTP 404",
+      "type": "asset"
+    },
+    {
+      "url": "https://www.et.nz/wp-content/uploads/presby_manufacturing.jpg",
+      "error": "HTTP 404",
+      "type": "asset"
+    },
+    {
+      "url": "https://www.et.nz/wp-content/plugins/wpforms-lite/assets/pro/images/times-solid-white.svg",
+      "error": "HTTP 404",
+      "type": "asset"
+    },
+    {
+      "url": "https://www.et.nz/wp-content/plugins/wpforms-lite/assets/pro/images/camera-video.svg",
+      "error": "HTTP 404",
+      "type": "asset"
+    },
+    {
+      "url": "https://www.et.nz/wp-content/plugins/wpforms-lite/assets/pro/images/camera-rotate.svg",
+      "error": "HTTP 404",
+      "type": "asset"
+    },
+    {
+      "url": "https://www.et.nz/wp-content/plugins/wpforms-lite/assets/images/crop.svg",
+      "error": "HTTP 404",
+      "type": "asset"
+    },
+    {
+      "url": "https://www.et.nz/wp-content/plugins/wpforms-lite/assets/pro/images/camera.svg",
+      "error": "HTTP 404",
+      "type": "asset"
+    },
+    {
+      "url": "https://www.et.nz/wp-content/plugins/wpforms-lite/assets/pro/images/crop.svg",
+      "error": "HTTP 404",
+      "type": "asset"
+    },
+    {
+      "url": "https://www.et.nz/wp-content/plugins/wpforms-lite/assets/pro/images/cancel.svg",
+      "error": "HTTP 404",
+      "type": "asset"
+    },
+    {
+      "url": "https://www.et.nz/wp-content/plugins/wpforms-lite/assets/pro/images/trash.svg",
+      "error": "HTTP 404",
+      "type": "asset"
+    },
+    {
+      "url": "https://www.et.nz/wp-content/contact-us/300",
+      "error": "HTTP 404",
+      "type": "asset"
+    },
+    {
+      "url": "https://www.et.nz/wp-content/contact-us/300italic",
+      "error": "HTTP 404",
+      "type": "asset"
+    },
+    {
+      "url": "https://www.et.nz/wp-content/contact-us/400italic",
+      "error": "HTTP 404",
+      "type": "asset"
+    },
+    {
+      "url": "https://www.et.nz/wp-content/contact-us/600",
+      "error": "HTTP 404",
+      "type": "asset"
+    },
+    {
+      "url": "https://www.et.nz/wp-content/contact-us/900&",
+      "error": "HTTP 404",
+      "type": "asset"
+    },
+    {
+      "url": "https://www.et.nz/wp-content/contact-us/700",
+      "error": "HTTP 404",
+      "type": "asset"
+    },
+    {
+      "url": "https://www.et.nz/wp-content/contact-us/r",
+      "error": "HTTP 404",
+      "type": "asset"
+    }
+  ]
+}

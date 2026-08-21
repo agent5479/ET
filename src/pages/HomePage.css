@@ -1,0 +1,134 @@
+.et-hero {
+  min-height: min(92vh, 820px);
+  display: grid;
+  align-items: end;
+  padding: clamp(2rem, 6vw, 5rem);
+  background:
+    linear-gradient(120deg, rgba(19, 38, 28, 0.72) 10%, rgba(42, 111, 106, 0.35) 55%, rgba(19, 38, 28, 0.2)),
+    url('/mirror/wp-content/uploads/environment_technology_slider1.jpg') center / cover no-repeat;
+  color: var(--et-white);
+}
+
+.et-hero-copy {
+  max-width: 38rem;
+}
+
+.et-hero-brand {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 5vw, 3.4rem);
+  font-weight: 700;
+  margin: 0 0 0.75rem;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+}
+
+.et-hero h1 {
+  font-family: var(--font-ui);
+  font-weight: 500;
+  font-size: clamp(1.05rem, 2.2vw, 1.35rem);
+  margin: 0 0 0.75rem;
+  max-width: 28rem;
+  line-height: 1.35;
+  color: color-mix(in srgb, var(--et-white) 92%, var(--et-sand));
+}
+
+.et-hero-support {
+  margin: 0 0 1.5rem;
+  font-size: 1.05rem;
+  max-width: 32rem;
+  color: color-mix(in srgb, var(--et-white) 88%, transparent);
+}
+
+.et-hero-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.et-btn {
+  font-family: var(--font-ui);
+  font-size: 0.95rem;
+  text-decoration: none;
+  padding: 0.7rem 1.15rem;
+  border: 1px solid transparent;
+}
+
+.et-btn-primary {
+  background: var(--et-accent);
+  color: var(--et-white);
+}
+
+.et-btn-ghost {
+  border-color: color-mix(in srgb, var(--et-white) 55%, transparent);
+  color: var(--et-white);
+}
+
+.et-section {
+  padding: clamp(2.5rem, 6vw, 4.5rem) clamp(1.25rem, 4vw, 3rem);
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.et-section h2 {
+  font-family: var(--font-display);
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  margin: 0 0 0.75rem;
+  color: var(--et-forest);
+}
+
+.et-lede {
+  margin: 0 0 1.5rem;
+  max-width: 40rem;
+  font-size: 1.08rem;
+}
+
+.et-pillars {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem;
+}
+
+.et-pillars li {
+  padding: 1rem 0;
+  border-top: 2px solid var(--et-sea);
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-family: var(--font-ui);
+}
+
+.et-pillars strong {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  color: var(--et-ink);
+}
+
+.et-card-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  font-family: var(--font-ui);
+  font-size: 1.1rem;
+}
+
+.et-text-link {
+  text-decoration: none;
+  color: var(--et-forest);
+  border-bottom: 1px solid color-mix(in srgb, var(--et-forest) 35%, transparent);
+  width: fit-content;
+}
+
+.et-section-split {
+  display: grid;
+  gap: 1.5rem;
+}
+
+@media (min-width: 800px) {
+  .et-section-split {
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+}
