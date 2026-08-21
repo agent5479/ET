@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link, Outlet, useLocation } from 'react-router-dom';
-import { NAV, SITE } from '../config/site.js';
+import { NAV, SITE, publicAsset } from '../config/site.js';
 import { applyDocumentMeta, localBusinessJsonLd } from '../seo/meta.js';
 import './Layout.css';
 
@@ -47,7 +47,14 @@ export default function Layout() {
 
       <header className={`et-header${scrolled ? ' is-scrolled' : ''}`}>
         <Link className="et-brand" to="/" onClick={() => setMenuOpen(false)}>
-          <span className="et-brand-mark">ET</span>
+          <img
+            className="et-brand-mark"
+            src={publicAsset(SITE.brandIcon)}
+            alt=""
+            width={40}
+            height={40}
+            decoding="async"
+          />
           <span className="et-brand-text">
             <span className="et-brand-name">{SITE.name}</span>
             <span className="et-brand-line">{SITE.productLine} wastewater systems</span>
@@ -81,7 +88,10 @@ export default function Layout() {
       <footer className="et-footer">
         <div className="et-footer-grid">
           <div>
-            <strong>{SITE.name}</strong>
+            <strong className="et-footer-brand">
+              <img src={publicAsset(SITE.brandIcon)} alt="" width={28} height={28} decoding="async" />
+              {SITE.name}
+            </strong>
             <p>
               {SITE.address.line1}
               <br />

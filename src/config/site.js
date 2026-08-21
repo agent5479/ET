@@ -10,6 +10,12 @@ export function mirrorAsset(path) {
   return `${base()}mirror/${clean.replace(/^mirror\//, '')}`;
 }
 
+/** Prefix public/ root assets (brand/favicon) for local + GitHub Pages. */
+export function publicAsset(path) {
+  const clean = path.replace(/^\//, '');
+  return `${base()}${clean}`;
+}
+
 export const SITE = {
   name: 'Environment Technology',
   shortName: 'ET',
@@ -17,6 +23,10 @@ export const SITE = {
   tagline: 'Advanced Enviro-Septic — onsite wastewater treatment for New Zealand.',
   canonicalOrigin: '',
   noindex: true,
+  /** Brand mark from www.et.nz site icon (WordPress cropped AES mark). */
+  brandIcon: 'brand/cropped-Environment_Technology_AES.jpg',
+  favicon32: 'favicon-32x32.jpg',
+  appleTouchIcon: 'apple-touch-icon.jpg',
   contactEmail: 'info@et.nz',
   phone: '03 970 7979',
   phoneTel: '039707979',

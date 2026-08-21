@@ -44,17 +44,12 @@
 }
 
 .et-brand-mark {
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 1.35rem;
-  letter-spacing: 0.02em;
-  color: var(--et-white);
-  background: var(--et-forest);
   width: 2.35rem;
   height: 2.35rem;
-  display: grid;
-  place-items: center;
+  object-fit: contain;
+  border-radius: 4px;
   flex-shrink: 0;
+  background: var(--et-white);
 }
 
 .et-brand-text {
