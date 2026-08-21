@@ -1,34 +1,22 @@
-.et-contact {
-  max-width: 960px;
-}
-
 .et-contact-grid {
   display: grid;
-  gap: 1.75rem;
+  gap: 1.15rem;
+  grid-template-columns: 1fr;
+  min-width: 0;
 }
 
 @media (min-width: 800px) {
   .et-contact-grid {
-    grid-template-columns: 1fr 1.1fr;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-}
-
-.et-contact-card {
-  padding-top: 1rem;
-  border-top: 2px solid var(--et-sea);
-}
-
-.et-contact-card h2 {
-  font-family: var(--font-display);
-  margin: 0 0 0.75rem;
-  font-size: 1.35rem;
-  color: var(--et-forest);
 }
 
 .et-form {
   display: grid;
   gap: 0.85rem;
   font-family: var(--font-ui);
+  text-align: left;
+  width: 100%;
 }
 
 .et-form label {
@@ -41,17 +29,19 @@
 .et-form textarea {
   font: inherit;
   padding: 0.65rem 0.75rem;
+  min-height: var(--et-tap);
   border: 1px solid color-mix(in srgb, var(--et-ink) 22%, transparent);
   background: var(--et-white);
   color: var(--et-ink);
+  width: 100%;
+  border-radius: 6px;
+}
+
+.et-form textarea {
+  min-height: 8rem;
 }
 
 .et-form button {
   justify-self: start;
-  cursor: pointer;
   border: none;
-}
-
-.et-form-thanks {
-  font-family: var(--font-ui);
 }

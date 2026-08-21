@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 /**
  * Local: base `/`
  * GitHub Pages (project site): base `/ET/` via `npm run build:pages`
- * No robots.txt — test site stays noindex.
+ * robots.txt Disallow: / + noindex meta — test site must not compete with www.et.nz.
  */
 export default defineConfig({
   plugins: [react()],

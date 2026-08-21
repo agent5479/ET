@@ -1,33 +1,35 @@
-import { Link } from 'react-router-dom';
+import { Card, CardGrid } from '../components/ui/Card.jsx';
+import PageHero from '../components/ui/PageHero.jsx';
+import Section from '../components/ui/Section.jsx';
 import { PRODUCTS, mirrorAsset } from '../config/site.js';
 import { usePageMeta } from '../hooks/usePageMeta.js';
-import './ProductsPage.css';
 
 export default function ProductsPage() {
   usePageMeta({
     title: 'Products',
-    description: 'AES wastewater systems, components, Tuf-Tite, Salcor UV, greywater and system sand from Environment Technology.',
+    description:
+      'AES wastewater systems, components, Tuf-Tite, Salcor UV, greywater and system sand from Environment Technology.',
   });
 
   return (
     <main className="et-page">
-      <div className="et-wrap">
-        <p className="et-kicker">Products</p>
-        <h1>Dedicated pages for every ET offering</h1>
-        <p className="et-lede">
-          One URL per product entity — clearer for people, and better for local/entity-style discovery later.
-        </p>
-        <div className="et-product-grid">
+      <PageHero
+        kicker="Products"
+        title="Dedicated pages for every ET offering"
+        lede="One URL per product entity — clearer for people, and better for local/entity-style discovery later."
+      />
+      <Section reveal={false}>
+        <CardGrid cols={3}>
           {PRODUCTS.map((p) => (
-            <Link key={p.slug} to={`/products/${p.slug}`} className="et-product-card">
-              <img src={mirrorAsset(p.image)} alt="" loading="lazy" />
-              <h2>{p.title}</h2>
-              <p>{p.summary}</p>
-              <span>View details →</span>
-            </Link>
+            <Card key={p.slug} to={`/products/${p.slug}`}>
+              <img className="et-card__media" src={mirrorAsset(p.image)} alt="" loading="lazy" />
+              <h2 className="et-card__title">{p.title}</h2>
+              <p className="et-card__body">{p.summary}</p>
+              <span className="et-card__cta">View details →</span>
+            </Card>
           ))}
-        </div>
-      </div>
+        </CardGrid>
+      </Section>
     </main>
   );
 }

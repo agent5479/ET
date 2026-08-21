@@ -1,56 +1,20 @@
-.et-page {
-  padding: clamp(2rem, 5vw, 3.5rem) 0 3rem;
-}
-
-.et-page h1 {
-  font-family: var(--font-display);
-  font-size: clamp(1.9rem, 3.5vw, 2.7rem);
-  margin: 0 0 0.75rem;
-  color: var(--et-forest);
-  line-height: 1.12;
-}
-
-.et-page .et-product-grid h2 {
-  font-family: var(--font-display);
-  font-size: 1.25rem;
-  margin: 0.35rem 0 0;
-  color: var(--et-ink);
-}
-
-.et-product-detail {
+.et-detail-card {
   max-width: 760px;
+  margin-inline: auto;
 }
 
-.et-product-hero {
-  width: 100%;
-  max-height: 380px;
-  object-fit: cover;
-  margin: 0.5rem 0 1.5rem;
-  background: var(--et-mist);
+.et-detail-media {
+  aspect-ratio: 16 / 9;
+  margin-bottom: 0.5rem;
 }
 
-.et-check-list {
-  list-style: none;
-  margin: 0 0 1.5rem;
-  padding: 0;
-  display: grid;
-  gap: 0.65rem;
-  font-family: var(--font-ui);
-}
-
-.et-check-list li {
-  padding-left: 1.35rem;
-  position: relative;
-}
-
-.et-check-list li::before {
-  content: '✓';
-  position: absolute;
-  left: 0;
-  color: var(--et-sea);
-  font-weight: 700;
-}
-
-.et-product-detail > p {
+.et-detail-copy {
   font-size: 1.05rem;
+  font-family: var(--font-body);
+}
+
+.et-detail-actions {
+  margin: 0.5rem 0 0;
+  display: flex;
+  justify-content: center;
 }

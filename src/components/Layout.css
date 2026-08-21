@@ -6,13 +6,13 @@
   color: var(--et-mist);
   position: sticky;
   top: 0;
-  z-index: 40;
+  z-index: 60;
 }
 
 .et-header {
   position: sticky;
   top: 0;
-  z-index: 30;
+  z-index: 50;
   display: flex;
   flex-wrap: wrap;
   align-items: center;

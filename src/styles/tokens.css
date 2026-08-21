@@ -1,5 +1,5 @@
 :root {
-  /* Environment Technology — earth / water industrial (not purple/cream AI defaults) */
+  /* Environment Technology — earth / water industrial (not cream/purple AI defaults) */
   --et-ink: #13261c;
   --et-forest: #1e4d36;
   --et-sea: #2a6f6a;
@@ -8,9 +8,21 @@
   --et-paper: #f3f6f2;
   --et-accent: #c45c26;
   --et-white: #ffffff;
-  --font-display: "Fraunces", "Iowan Old Style", Georgia, serif;
-  --font-body: "Source Serif 4", "Palatino Linotype", Palatino, serif;
-  --font-ui: "IBM Plex Sans", "Segoe UI", sans-serif;
+  --et-card-bg: #ffffff;
+  --et-card-border: color-mix(in srgb, var(--et-forest) 14%, transparent);
+  --et-card-radius: 12px;
+  --et-card-shadow: 0 10px 28px color-mix(in srgb, var(--et-ink) 8%, transparent);
+  --et-section-pad: clamp(2.5rem, 6vw, 4.5rem);
+  --et-wrap-max: 1160px;
+  --et-measure: 40rem;
+  --et-tap: 44px;
+  --et-ease: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Typography roles — Fraunces editorial, Source Serif narrative, IBM Plex UI */
+  --font-heading: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --font-display: var(--font-heading);
+  --font-body: "Source Serif 4", "Palatino Linotype", Palatino, Georgia, serif;
+  --font-ui: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
 *,
@@ -21,6 +33,7 @@
 
 html {
   scroll-behavior: smooth;
+  color-scheme: light;
 }
 
 body {
@@ -29,6 +42,28 @@ body {
   color: var(--et-ink);
   background: var(--et-paper);
   line-height: 1.55;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+.et-brand-name,
+.et-brand-mark,
+.et-hero-brand {
+  font-family: var(--font-heading);
+  font-optical-sizing: auto;
+  font-variation-settings: "opsz" 72;
+}
+
+@media (max-width: 720px) {
+  h1,
+  h2,
+  .et-hero-brand,
+  .et-page-hero h1 {
+    font-variation-settings: "opsz" 36;
+  }
 }
 
 a {
@@ -38,8 +73,29 @@ a {
 img {
   max-width: 100%;
   height: auto;
+  display: block;
 }
 
 #root {
   min-height: 100vh;
+  min-width: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation-duration: 0.28s;
+    animation-timing-function: var(--et-ease);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation: none !important;
+  }
 }

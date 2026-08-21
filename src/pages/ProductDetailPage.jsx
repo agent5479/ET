@@ -1,4 +1,7 @@
 import { Link, useParams } from 'react-router-dom';
+import { Card } from '../components/ui/Card.jsx';
+import PageHero from '../components/ui/PageHero.jsx';
+import Section from '../components/ui/Section.jsx';
 import { getProduct, mirrorAsset } from '../config/site.js';
 import { usePageMeta } from '../hooks/usePageMeta.js';
 import './ProductsPage.css';
@@ -15,37 +18,41 @@ export default function ProductDetailPage() {
   if (!product) {
     return (
       <main className="et-page">
-        <div className="et-wrap">
-          <h1>Product not found</h1>
-          <Link to="/products">Back to products</Link>
-        </div>
+        <PageHero title="Product not found" lede="That product page is not in the rebuild catalogue." />
+        <Section reveal={false}>
+          <p style={{ textAlign: 'center' }}>
+            <Link className="et-text-link" to="/products">
+              Back to products
+            </Link>
+          </p>
+        </Section>
       </main>
     );
   }
 
   return (
     <main className="et-page">
-      <div className="et-wrap et-product-detail">
-        <p className="et-kicker">
-          <Link to="/products">Products</Link>
-        </p>
-        <h1>{product.title}</h1>
-        <p className="et-lede">{product.summary}</p>
-        <img className="et-product-hero" src={mirrorAsset(product.image)} alt="" />
-        <ul className="et-check-list">
-          {product.highlights.map((h) => (
-            <li key={h}>{h}</li>
+      <PageHero kicker="Products" title={product.title} lede={product.summary} />
+      <Section reveal={false}>
+        <Card padLg className="et-detail-card">
+          <img className="et-card__media et-detail-media" src={mirrorAsset(product.image)} alt="" />
+          <ul className="et-check-list">
+            {product.highlights.map((h) => (
+              <li key={h}>{h}</li>
+            ))}
+          </ul>
+          {product.body.split('\n\n').map((para) => (
+            <p key={para.slice(0, 24)} className="et-card__body et-detail-copy">
+              {para}
+            </p>
           ))}
-        </ul>
-        {product.body.split('\n\n').map((para) => (
-          <p key={para.slice(0, 24)}>{para}</p>
-        ))}
-        <p>
-          <Link className="et-btn et-btn-primary" to={product.cta.to}>
-            {product.cta.label}
-          </Link>
-        </p>
-      </div>
+          <p className="et-detail-actions">
+            <Link className="et-btn et-btn-primary" to={product.cta.to}>
+              {product.cta.label}
+            </Link>
+          </p>
+        </Card>
+      </Section>
     </main>
   );
 }

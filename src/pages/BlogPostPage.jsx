@@ -1,4 +1,7 @@
 import { Link, useParams } from 'react-router-dom';
+import { Card } from '../components/ui/Card.jsx';
+import PageHero from '../components/ui/PageHero.jsx';
+import Section from '../components/ui/Section.jsx';
 import { getPost } from '../content/blogPosts.js';
 import { usePageMeta } from '../hooks/usePageMeta.js';
 import './BlogPage.css';
@@ -15,31 +18,35 @@ export default function BlogPostPage() {
   if (!post) {
     return (
       <main className="et-page">
-        <div className="et-wrap">
-          <h1>Post not found</h1>
-          <Link to="/blog">Back to Field Notes</Link>
-        </div>
+        <PageHero title="Post not found" />
+        <Section reveal={false}>
+          <p style={{ textAlign: 'center' }}>
+            <Link className="et-text-link" to="/blog">
+              Back to Field Notes
+            </Link>
+          </p>
+        </Section>
       </main>
     );
   }
 
   return (
     <main className="et-page">
-      <article className="et-wrap et-blog-article">
-        <p className="et-kicker">
-          <Link to="/blog">Field Notes</Link>
-        </p>
-        <time dateTime={post.date}>{post.date}</time>
-        <h1>{post.title}</h1>
-        <ul className="et-tags">
-          {post.tags.map((t) => (
-            <li key={t}>{t}</li>
+      <PageHero kicker="Field Notes" title={post.title} lede={post.date} />
+      <Section reveal={false}>
+        <Card padLg className="et-article-card">
+          <ul className="et-tags">
+            {post.tags.map((t) => (
+              <li key={t}>{t}</li>
+            ))}
+          </ul>
+          {post.body.split('\n\n').map((para) => (
+            <p key={para.slice(0, 32)} className="et-article-p">
+              {para}
+            </p>
           ))}
-        </ul>
-        {post.body.split('\n\n').map((para) => (
-          <p key={para.slice(0, 32)}>{para}</p>
-        ))}
-      </article>
+        </Card>
+      </Section>
     </main>
   );
 }

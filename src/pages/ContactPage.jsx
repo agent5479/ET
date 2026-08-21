@@ -1,4 +1,7 @@
 import { useState } from 'react';
+import { Card } from '../components/ui/Card.jsx';
+import PageHero from '../components/ui/PageHero.jsx';
+import Section from '../components/ui/Section.jsx';
 import { SITE } from '../config/site.js';
 import { usePageMeta } from '../hooks/usePageMeta.js';
 import './ContactPage.css';
@@ -18,18 +21,16 @@ export default function ContactPage() {
 
   return (
     <main className="et-page">
-      <div className="et-wrap et-contact">
-        <p className="et-kicker">Contact</p>
-        <h1>Talk to Environment Technology</h1>
-        <p className="et-lede">
-          Freephone advice, Nelson depot hours, and a simple enquiry form (UI only for this test rebuild — wire a
-          backend when you choose a destination).
-        </p>
-
+      <PageHero
+        kicker="Contact"
+        title="Talk to Environment Technology"
+        lede="Freephone advice, Nelson depot hours, and a simple enquiry form (UI only for this test rebuild)."
+      />
+      <Section reveal={false}>
         <div className="et-contact-grid">
-          <div className="et-contact-card">
-            <h2>Reach us</h2>
-            <p>
+          <Card padLg>
+            <h2 className="et-card__title">Reach us</h2>
+            <p className="et-card__body">
               <strong>{SITE.name} Ltd</strong>
               <br />
               {SITE.address.line1}
@@ -38,20 +39,20 @@ export default function ContactPage() {
               <br />
               New Zealand
             </p>
-            <p>
+            <p className="et-card__body">
               <a href={`tel:${SITE.freephoneTel}`}>{SITE.freephoneLabel}</a> / {SITE.freephone}
               <br />
               <a href={`tel:${SITE.phoneTel}`}>{SITE.phone}</a>
               <br />
               <a href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a>
             </p>
-            <p>{SITE.hours}</p>
-          </div>
+            <p className="et-card__meta">{SITE.hours}</p>
+          </Card>
 
-          <div className="et-contact-card">
-            <h2>Enquiry</h2>
+          <Card padLg>
+            <h2 className="et-card__title">Enquiry</h2>
             {sent ? (
-              <p className="et-form-thanks">
+              <p className="et-card__body">
                 Thanks — this demo form does not send yet. Email{' '}
                 <a href={`mailto:${SITE.contactEmail}`}>{SITE.contactEmail}</a> or call {SITE.freephone}.
               </p>
@@ -78,9 +79,9 @@ export default function ContactPage() {
                 </button>
               </form>
             )}
-          </div>
+          </Card>
         </div>
-      </div>
+      </Section>
     </main>
   );
 }

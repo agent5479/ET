@@ -5,9 +5,9 @@ Scrape reference: [www.et.nz](https://www.et.nz)
 
 ## Important: test site (non-competing)
 
-- **No `robots.txt`** (see `public/ROBOTS.txt.OMITTED.md`)
-- React pages use `<meta name="robots" content="noindex, nofollow">`
-- Flip `SITE.noindex` in `src/config/site.js` only at real launch
+- **`robots.txt` Disallow: /** — do not crawl this test deploy (see `public/robots.txt`)
+- React + mirror pages use `<meta name="robots" content="noindex, nofollow">`
+- Flip `SITE.noindex` and robots policy in `src/config/site.js` / `public/robots.txt` only at real launch
 
 ## Commands
 

@@ -1,11 +1,32 @@
-import { SITE } from '../config/site.js';
+import { SITE, mirrorAsset } from '../config/site.js';
 
 /** Document head helpers — noindex while test site must not compete with www.et.nz */
-export function applyDocumentMeta({ title, description }) {
-  document.title = title ? `${title} · ${SITE.name}` : `${SITE.name} · ${SITE.productLine}`;
+export function applyDocumentMeta({ title, description, image } = {}) {
+  const fullTitle = title ? `${title} · ${SITE.name}` : `${SITE.name} · ${SITE.productLine}`;
+  const desc = description || SITE.tagline;
+  document.title = fullTitle;
 
-  upsertMeta('name', 'description', description || SITE.tagline);
+  upsertMeta('name', 'description', desc);
   upsertMeta('name', 'robots', SITE.noindex ? 'noindex, nofollow' : 'index, follow');
+
+  upsertMeta('property', 'og:type', 'website');
+  upsertMeta('property', 'og:site_name', SITE.name);
+  upsertMeta('property', 'og:title', fullTitle);
+  upsertMeta('property', 'og:description', desc);
+  upsertMeta('name', 'twitter:card', 'summary_large_image');
+  upsertMeta('name', 'twitter:title', fullTitle);
+  upsertMeta('name', 'twitter:description', desc);
+
+  const ogImage = absoluteAssetUrl(image || SITE.heroImage);
+  if (ogImage) {
+    upsertMeta('property', 'og:image', ogImage);
+    upsertMeta('name', 'twitter:image', ogImage);
+  }
+
+  if (typeof window !== 'undefined') {
+    const pageUrl = `${window.location.origin}${window.location.pathname}`;
+    upsertMeta('property', 'og:url', pageUrl);
+  }
 
   if (SITE.canonicalOrigin && typeof window !== 'undefined') {
     const href = SITE.canonicalOrigin + window.location.pathname;
@@ -17,6 +38,14 @@ export function applyDocumentMeta({ title, description }) {
     }
     link.setAttribute('href', href);
   }
+}
+
+function absoluteAssetUrl(path) {
+  if (!path || typeof window === 'undefined') return '';
+  const relative = mirrorAsset(path);
+  if (relative.startsWith('http')) return relative;
+  const origin = SITE.canonicalOrigin || window.location.origin;
+  return `${origin}${relative.startsWith('/') ? '' : '/'}${relative}`;
 }
 
 function upsertMeta(attr, key, content) {
