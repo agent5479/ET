@@ -44,7 +44,7 @@ Trade tip: bring the homeowner’s maintenance manual to the first site visit. P
     title: 'Commercial and community loading — same language, different duty',
     date: '2025-11-05',
     excerpt:
-      'Cafés, campgrounds and worker accommodation are not “big houses.” Peak loads and seasonal swings are where AES scale-up has to be designed, not assumed.',
+      'Commercial sites: size for peak days, not annual averages.',
     tags: ['Commercial', 'Large-scale'],
     body: `AES shows up on motels, DOC campgrounds, cafés and seasonal worker accommodation because the core treatment language scales — more pipe, more sand, careful distribution — without inventing a new mechanical plant for every consent.
 
