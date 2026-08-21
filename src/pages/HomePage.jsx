@@ -8,12 +8,11 @@ import { BLOG_POSTS } from '../content/blogPosts.js';
 import { usePageMeta } from '../hooks/usePageMeta.js';
 import './HomePage.css';
 
-const PROBLEMS = [
-  'Secondary plants that need filters cleaned and alarms answered',
-  'Noise and power draw from field pumps that should not be part of “set and forget”',
-  'Tight sections where a flat, isolated disposal field simply will not fit',
-  'Retrofits that swap one mechanical headache for another',
-  'Commercial peaks that exposed undersized “house-sized” thinking',
+const FACTS = [
+  'Onsite wastewater treatment — septic tank in, treated effluent out',
+  'Set-and-forget field: no bed pumps, no aerator noise, no filter alarms',
+  'Tank pump-out on a normal multi-year cycle, like most septic systems',
+  'Fits tight and contoured sites — mounds, curves, constrained footprints',
 ];
 
 export default function HomePage() {
@@ -44,17 +43,17 @@ export default function HomePage() {
             height={40}
             decoding="async"
           />
-          <h1>AES wastewater systems and site products for New Zealand.</h1>
+          <h1>Set-and-forget onsite wastewater for New Zealand.</h1>
           <p className="et-hero-support">
-            Browse the range below — AES treatment, components, sand, Tuf-Tite, UV and greywater — then dig into how it
-            works when you need the detail.
+            AES is a passive wastewater system. Browse the products below — treatment, parts, sand, and related gear —
+            then open a page when you need detail.
           </p>
           <div className="et-hero-ctas">
             <a className="et-btn et-btn-primary" href="#products">
-              See offerings
+              Browse products
             </a>
-            <Link className="et-btn et-btn-ghost" to="/products">
-              All products
+            <Link className="et-btn et-btn-ghost" to="/aes">
+              How it works
             </Link>
           </div>
         </div>
@@ -62,9 +61,9 @@ export default function HomePage() {
 
       <Section id="products">
         <SectionHeader
-          kicker="What we supply"
-          title="Offerings from Environment Technology"
-          lede="AES at the centre, with components, sand, Tuf-Tite, UV and greywater for complete onsite solutions."
+          kicker="Products"
+          title="What you can buy and specify"
+          lede="Six items. Start with AES if you need wastewater treatment; use the others to complete the install."
         />
         <CardGrid cols={3}>
           {PRODUCTS.map((p) => (
@@ -72,93 +71,83 @@ export default function HomePage() {
               <img className="et-card__media" src={mirrorAsset(p.image)} alt="" loading="lazy" />
               <h3 className="et-card__title">{p.title}</h3>
               <p className="et-card__body">{p.summary}</p>
-              <span className="et-card__cta">View details →</span>
+              <span className="et-card__cta">Open →</span>
             </Card>
           ))}
         </CardGrid>
       </Section>
 
       <Section alt>
-        <SectionHeader kicker="Who it’s for" title="Paths for every audience" />
-        <CardGrid cols={3}>
-          <Card to="/products/aes-system">
-            <h3 className="et-card__title">Homeowners</h3>
-            <p className="et-card__body">Quiet, low-fuss treatment for new builds and retrofits</p>
-            <span className="et-card__cta">Explore AES →</span>
-          </Card>
-          <Card to="/aes">
-            <h3 className="et-card__title">Designers &amp; installers</h3>
-            <p className="et-card__body">Design aids, sand specs, training pathway</p>
-            <span className="et-card__cta">AES system →</span>
-          </Card>
-          <Card to="/products">
-            <h3 className="et-card__title">Commercial &amp; community</h3>
-            <p className="et-card__body">Scale AES for peaks, not averages</p>
-            <span className="et-card__cta">All products →</span>
-          </Card>
+        <SectionHeader
+          kicker="In short"
+          title="Wastewater treatment you do not babysit"
+          lede="AES does secondary treatment in pipe and system sand. No pumps in the bed."
+        />
+        <CardGrid cols={2}>
+          {FACTS.map((text) => (
+            <Card key={text} className="et-problem-card">
+              <p className="et-card__body">{text}</p>
+            </Card>
+          ))}
         </CardGrid>
-      </Section>
-
-      <Section>
-        <SectionHeader
-          kicker="Versatility"
-          title="One AES language across site types"
-          lede="Residential, commercial, community and large-scale — plus constrained layouts — without inventing a new mechanical plant for every consent."
-        />
-        <Card padLg center className="et-infographic-card">
-          <AesVersatilityInfographic />
-          <Link className="et-text-link" to="/aes">
-            Open full AES overview →
-          </Link>
-        </Card>
-      </Section>
-
-      <Section alt>
-        <SectionHeader
-          kicker="Why AES"
-          title="Passive secondary treatment that scales with the site"
-          lede="Skip the pitch deck order — here is the practical case once you know what ET supplies."
-        />
-        <div className="et-split">
+        <div className="et-split et-why-problems">
           <Card padLg>
             <p className="et-card__body">
-              Advanced Enviro-Septic treats wastewater in specialised pipe within a system-sand bed. No pumps in the
-              bed. No aerator soundtrack. Designers shape beds for mounds, curves and constrained footprints;
-              installers build from ET manuals; homeowners get a quieter maintenance story.
-            </p>
-            <p className="et-card__body">
-              Third-party OSET-NTP testing at Rotorua frames AES performance at about one tenth of the NZ secondary
-              treatment standard for key contaminants — a concrete talking point for consents, not a slogan.
+              OSET-NTP testing at Rotorua put AES at about one tenth of the NZ secondary standard for key contaminants.
+              Useful for consents; not a substitute for site design.
             </p>
             <Link className="et-text-link" to="/aes">
-              See the AES system →
+              AES system overview →
             </Link>
           </Card>
           <Card className="et-photo-card">
             <img
               className="et-card__media et-photo-card__img"
               src={mirrorAsset('wp-content/uploads/aes_residential.jpg')}
-              alt="Residential AES onsite wastewater installation"
+              alt="Residential AES wastewater installation"
               loading="lazy"
             />
           </Card>
         </div>
-        <div className="et-why-problems">
-          <p className="et-kicker" style={{ textAlign: 'center', marginBottom: '1rem' }}>
-            Common pain points AES avoids
-          </p>
-          <CardGrid cols={2}>
-            {PROBLEMS.map((text) => (
-              <Card key={text} className="et-problem-card">
-                <p className="et-card__body">{text}</p>
-              </Card>
-            ))}
-          </CardGrid>
-        </div>
       </Section>
 
       <Section>
-        <SectionHeader kicker="Field notes" title="From the ET desk" />
+        <SectionHeader kicker="Who uses it" title="Pick your path" />
+        <CardGrid cols={3}>
+          <Card to="/products/aes-system">
+            <h3 className="et-card__title">Homeowners</h3>
+            <p className="et-card__body">New build or retrofit — quiet bed, normal tank pump-outs.</p>
+            <span className="et-card__cta">AES product →</span>
+          </Card>
+          <Card to="/aes">
+            <h3 className="et-card__title">Designers &amp; installers</h3>
+            <p className="et-card__body">Manuals, sand spec, bed layouts, training pathway.</p>
+            <span className="et-card__cta">System page →</span>
+          </Card>
+          <Card to="/products">
+            <h3 className="et-card__title">Commercial &amp; community</h3>
+            <p className="et-card__body">Same AES approach, sized for peaks and shared schemes.</p>
+            <span className="et-card__cta">Full list →</span>
+          </Card>
+        </CardGrid>
+      </Section>
+
+      <Section alt>
+        <SectionHeader
+          kicker="Sites"
+          title="Same system, many layouts"
+          lede="Homes, commercial, community, large-scale, and tight contours."
+        />
+        <Card padLg center className="et-infographic-card">
+          <AesVersatilityInfographic />
+          <Link className="et-text-link" to="/aes">
+            More on AES →
+          </Link>
+        </Card>
+      </Section>
+
+      <Section>
+        <SectionHeader kicker="Notes" title="Short field notes" lede="Optional reading — not required to choose a product." />
         <CardGrid cols={3}>
           {BLOG_POSTS.slice(0, 3).map((post) => (
             <Card key={post.slug} to={`/blog/${post.slug}`}>
@@ -173,24 +162,21 @@ export default function HomePage() {
         </CardGrid>
         <p className="et-section-footer-link">
           <Link className="et-text-link" to="/blog">
-            All field notes →
+            All notes →
           </Link>
         </p>
       </Section>
 
       <section className="et-cta-strip et-reveal">
         <div className="et-wrap">
-          <h2>Ready to specify AES?</h2>
-          <p>
-            Talk to Environment Technology in Nelson — freephone advice, price pathways, and designer referrals
-            nationwide.
-          </p>
+          <h2>Need a price or a designer?</h2>
+          <p>Call ET in Nelson, or send a short enquiry.</p>
           <div className="et-cta-actions">
             <a className="et-btn et-btn-primary" href={`tel:${SITE.freephoneTel}`}>
-              Call {SITE.freephone}
+              {SITE.freephone}
             </a>
             <Link className="et-btn et-btn-ghost-dark" to="/contact">
-              Contact form
+              Contact
             </Link>
           </div>
         </div>

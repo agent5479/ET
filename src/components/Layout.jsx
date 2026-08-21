@@ -57,7 +57,7 @@ export default function Layout() {
           />
           <span className="et-brand-text">
             <span className="et-brand-name">{SITE.name}</span>
-            <span className="et-brand-line">{SITE.productLine} wastewater systems</span>
+            <span className="et-brand-line">Set-and-forget wastewater</span>
           </span>
         </Link>
 
@@ -118,8 +118,8 @@ export default function Layout() {
           </div>
         </div>
         <p className="et-footer-meta">
-          © {new Date().getFullYear()} {SITE.name}. Sales rebuild inspired by modern NZ industrial UX — scrape retained
-          under <a href={`${import.meta.env.BASE_URL}mirror/index.html`}>/mirror</a>.
+          © {new Date().getFullYear()} {SITE.name}. Test rebuild —{' '}
+          <a href={`${import.meta.env.BASE_URL}mirror/index.html`}>scraped mirror</a> kept for reference.
         </p>
       </footer>
     </div>

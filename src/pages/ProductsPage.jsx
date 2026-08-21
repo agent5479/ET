@@ -15,8 +15,8 @@ export default function ProductsPage() {
     <main className="et-page">
       <PageHero
         kicker="Products"
-        title="Dedicated pages for every ET offering"
-        lede="One URL per product entity — clearer for people, and better for local/entity-style discovery later."
+        title="Browse the catalogue"
+        lede="AES wastewater treatment first; components, sand, Tuf-Tite, UV and greywater as needed."
       />
       <Section reveal={false}>
         <CardGrid cols={3}>

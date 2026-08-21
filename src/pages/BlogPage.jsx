@@ -14,9 +14,9 @@ export default function BlogPage() {
   return (
     <main className="et-page">
       <PageHero
-        kicker="Blog"
-        title="Field Notes"
-        lede="Improvised first-party commentary for the rebuild — consent talk, constrained sites, retrofits and commercial loading. Not generic septic filler."
+        kicker="Notes"
+        title="Field notes"
+        lede="Optional reading on consents, tight sites and retrofits. Skip if you only need the product list."
       />
       <Section reveal={false}>
         <CardGrid cols={2}>

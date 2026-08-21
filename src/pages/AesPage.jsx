@@ -10,23 +10,22 @@ import './AesPage.css';
 
 const STEPS = [
   { title: 'Collect', body: 'Wastewater leaves the septic tank into AES pipe.' },
-  { title: 'Treat', body: 'Biofilm and sand do the secondary work inside the bed.' },
-  { title: 'Disperse', body: 'Cleaned effluent infiltrates — with optional UV where consents demand it.' },
+  { title: 'Treat', body: 'Pipe and sand treat it in the bed — no pumps there.' },
+  { title: 'Disperse', body: 'Effluent infiltrates. Add UV only if the consent requires it.' },
 ];
 
 export default function AesPage() {
   usePageMeta({
     title: 'The AES System',
-    description:
-      'How Advanced Enviro-Septic works — passive treatment, OSET-proven performance, and site versatility across New Zealand.',
+    description: 'AES onsite wastewater: septic to pipe-and-sand bed, set-and-forget field, NZ sites.',
   });
 
   return (
     <main className="et-page">
       <PageHero
-        kicker="AES System"
-        title="Advanced Enviro-Septic"
-        lede="Passive secondary treatment in pipe and system sand — designed for NZ homes, commercial sites and large-scale projects without a noisy field plant."
+        kicker="AES"
+        title="How the wastewater system works"
+        lede="Passive secondary treatment in pipe and sand. Set-and-forget in the field — no bed pumps."
       />
 
       <Section reveal={false}>
@@ -47,7 +46,7 @@ export default function AesPage() {
       </Section>
 
       <Section alt>
-        <SectionHeader kicker="Process" title="How it works" />
+        <SectionHeader kicker="Steps" title="Three stages" />
         <CardGrid cols={3}>
           {STEPS.map((step, i) => (
             <Card key={step.title} center padLg>
@@ -61,19 +60,19 @@ export default function AesPage() {
 
       <Section>
         <SectionHeader
-          kicker="Versatility"
-          title="Versatility of AES"
-          lede="One treatment language across residential, commercial, community and large-scale work — and layouts that respect tight contours."
+          kicker="Layouts"
+          title="Where it fits"
+          lede="Residential, commercial, community, large-scale, constrained sites."
         />
         <Card padLg center className="et-infographic-card">
           <AesVersatilityInfographic expanded />
         </Card>
         <p className="et-aes-ctas">
           <Link className="et-btn et-btn-primary" to="/products/aes-system">
-            AES product page
+            AES product
           </Link>
           <Link className="et-btn et-btn-ghost-dark" to="/contact">
-            Talk to ET
+            Contact
           </Link>
         </p>
       </Section>

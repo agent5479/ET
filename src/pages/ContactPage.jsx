@@ -23,8 +23,8 @@ export default function ContactPage() {
     <main className="et-page">
       <PageHero
         kicker="Contact"
-        title="Talk to Environment Technology"
-        lede="Freephone advice, Nelson depot hours, and a simple enquiry form (UI only for this test rebuild)."
+        title="Call or send a short enquiry"
+        lede={`${SITE.hours}. Form is UI-only on this test site — use phone or email for real requests.`}
       />
       <Section reveal={false}>
         <div className="et-contact-grid">

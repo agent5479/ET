@@ -5,7 +5,7 @@ export const BLOG_POSTS = [
     title: 'OSET numbers that matter on a consent conversation',
     date: '2026-03-12',
     excerpt:
-      'When a council planner asks “how clean?”, point to the OSET-NTP framing — not a brochure claim. Here’s how we talk about AES results in the room.',
+      'Council asks how clean: point to OSET-NTP numbers, not brochure claims.',
     tags: ['AES', 'OSET', 'Designers'],
     body: `Most homeowners hear “secondary treatment” and stop listening. Designers and consent officers hear a different question: what was measured, where, and against which standard?
 
@@ -18,7 +18,7 @@ Field habit: keep the achievement summary PDF and the site’s soil category in 
     title: 'Raised mounds and tight sections — when AES stops fighting the contour',
     date: '2026-02-18',
     excerpt:
-      'Constrained sites are where passive systems earn their keep. Curved beds, raised mounds and under-driveway layouts are design tools, not marketing fluff.',
+      'Tight sites: mounds, curves and shaped beds — not more machinery.',
     tags: ['Homeowners', 'Design'],
     body: `On a steep Nelson section or a small lifestyle block, the wastewater area is often the last uncompromised rectangle — until it isn’t. AES’s flexibility shows up when the bed has to follow a contour, sit in a raised mound, or share space with hard surfaces.
 
@@ -31,7 +31,7 @@ If you are early in design, walk the contour with the drainlayer before you free
     title: 'Retrofit without the alarm cycle',
     date: '2026-01-22',
     excerpt:
-      'Upgrading a failing secondary plant is half engineering, half household psychology. Removing pumps from the story changes what “maintenance” means.',
+      'Retrofit: replace the alarm cycle with a passive bed and normal tank pump-outs.',
     tags: ['Retrofit', 'Homeowners'],
     body: `Retrofits start with a smell, an alarm, or a consent renewal. Families remember the 2 a.m. pump call more than any brochure diagram. AES is attractive in that moment because the secondary story is passive — treatment in the pipe-and-sand bed, tank pump-outs on a multi-year rhythm rather than continuous mechanical babysitting.
 
