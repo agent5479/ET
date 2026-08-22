@@ -1,10 +1,16 @@
 import { Link, useParams } from 'react-router-dom';
+import AesBedShapes from '../components/diagrams/AesBedShapes.jsx';
 import { Card } from '../components/ui/Card.jsx';
 import PageHero from '../components/ui/PageHero.jsx';
 import Section from '../components/ui/Section.jsx';
 import { getPost } from '../content/blogPosts.js';
 import { usePageMeta } from '../hooks/usePageMeta.js';
 import './BlogPage.css';
+
+function PostDiagram({ type }) {
+  if (type === 'bed-shapes') return <AesBedShapes />;
+  return null;
+}
 
 export default function BlogPostPage() {
   const { slug } = useParams();
@@ -30,6 +36,8 @@ export default function BlogPostPage() {
     );
   }
 
+  const paragraphs = post.body.split('\n\n');
+
   return (
     <main className="et-page">
       <PageHero kicker="Field Notes" title={post.title} lede={post.date} />
@@ -40,7 +48,17 @@ export default function BlogPostPage() {
               <li key={t}>{t}</li>
             ))}
           </ul>
-          {post.body.split('\n\n').map((para) => (
+          {paragraphs.slice(0, 1).map((para) => (
+            <p key={para.slice(0, 32)} className="et-article-p">
+              {para}
+            </p>
+          ))}
+          {post.diagram ? (
+            <div className="et-article-diagram">
+              <PostDiagram type={post.diagram} />
+            </div>
+          ) : null}
+          {paragraphs.slice(1).map((para) => (
             <p key={para.slice(0, 32)} className="et-article-p">
               {para}
             </p>

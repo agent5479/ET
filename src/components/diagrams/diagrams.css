@@ -1,0 +1,258 @@
+/* Shared AES explanation diagrams */
+
+.et-diagram {
+  --et-diagram-stroke: color-mix(in srgb, var(--et-ink) 55%, var(--et-sea));
+  --et-diagram-muted: color-mix(in srgb, var(--et-mist) 70%, var(--et-sand));
+  max-width: 920px;
+  margin-inline: auto;
+}
+
+.et-diagram__canvas {
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: visible;
+}
+
+.et-diagram__stage {
+  cursor: pointer;
+  outline: none;
+}
+
+.et-diagram__stage:focus-visible .et-diagram__hit,
+.et-diagram__stage.is-active .et-diagram__hit {
+  stroke: var(--et-forest);
+  stroke-width: 2.5;
+}
+
+.et-diagram__hit {
+  fill: var(--et-white);
+  stroke: color-mix(in srgb, var(--et-forest) 28%, transparent);
+  stroke-width: 1.5;
+  transition: fill 0.2s var(--et-ease), stroke 0.2s var(--et-ease), transform 0.25s var(--et-ease);
+}
+
+.et-diagram__stage:hover .et-diagram__hit {
+  fill: color-mix(in srgb, var(--et-mist) 80%, var(--et-white));
+}
+
+.et-diagram__stage.is-active .et-diagram__hit {
+  fill: color-mix(in srgb, var(--et-mist) 55%, var(--et-white));
+}
+
+.et-diagram__icon {
+  fill: var(--et-sea);
+  color: var(--et-sea);
+}
+
+.et-diagram__stage.is-active .et-diagram__icon {
+  fill: var(--et-forest);
+  color: var(--et-forest);
+}
+
+.et-pipe-layers__sand {
+  fill: color-mix(in srgb, var(--et-sand) 55%, #c4a574);
+}
+
+.et-diagram__label {
+  font-family: var(--font-ui);
+  font-size: 11px;
+  font-weight: 600;
+  fill: var(--et-ink);
+  text-anchor: middle;
+  pointer-events: none;
+}
+
+.et-diagram__flow {
+  fill: none;
+  stroke: var(--et-sea);
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-dasharray: 5 4;
+  opacity: 0.85;
+}
+
+.et-diagram__flow-anim {
+  animation: et-diagram-dash 1.4s linear infinite;
+}
+
+.et-diagram__ground {
+  fill: color-mix(in srgb, var(--et-forest) 22%, var(--et-mist));
+}
+
+.et-diagram__water {
+  fill: var(--et-sea);
+  opacity: 0.75;
+}
+
+.et-diagram__soil {
+  fill: color-mix(in srgb, var(--et-sand) 40%, #b8956a);
+}
+
+.et-diagram__detail {
+  max-width: 36rem;
+  margin: 1rem auto 0;
+  text-align: center;
+  padding-top: 0.85rem;
+  border-top: 1px solid color-mix(in srgb, var(--et-forest) 16%, transparent);
+}
+
+.et-diagram__detail h3 {
+  font-family: var(--font-display);
+  margin: 0 0 0.35rem;
+  font-size: 1.25rem;
+  color: var(--et-forest);
+}
+
+.et-diagram__detail p {
+  margin: 0;
+  font-family: var(--font-ui);
+  font-size: 0.95rem;
+  color: var(--et-ink);
+}
+
+.et-diagram__note {
+  max-width: 40rem;
+  margin: 0.65rem auto 0;
+  font-family: var(--font-ui);
+  font-size: 0.88rem;
+  text-align: center;
+  opacity: 0.85;
+}
+
+.et-diagram--compact .et-diagram__detail h3 {
+  font-size: 1.1rem;
+}
+
+.et-diagram--compact .et-diagram__detail p {
+  font-size: 0.88rem;
+}
+
+/* Pipe layers */
+
+.et-pipe-layers__ring {
+  cursor: pointer;
+  transition: opacity 0.2s var(--et-ease);
+}
+
+.et-pipe-layers__ring:focus-visible {
+  outline: 2px solid var(--et-forest);
+  outline-offset: 2px;
+}
+
+.et-pipe-layers__ring:not(.is-active) {
+  opacity: 0.55;
+}
+
+.et-pipe-layers__ring.is-active,
+.et-pipe-layers__ring:hover {
+  opacity: 1;
+}
+
+.et-pipe-layers__chips {
+  list-style: none;
+  margin: 1rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.45rem;
+}
+
+.et-pipe-layers__chips button {
+  font-family: var(--font-ui);
+  font-size: 0.82rem;
+  padding: 0.45rem 0.75rem;
+  border: 1px solid color-mix(in srgb, var(--et-forest) 28%, transparent);
+  background: var(--et-white);
+  color: var(--et-ink);
+  cursor: pointer;
+  transition: background 0.2s var(--et-ease), color 0.2s var(--et-ease), border-color 0.2s var(--et-ease);
+}
+
+.et-pipe-layers__chips button.is-active,
+.et-pipe-layers__chips button:hover {
+  background: var(--et-forest);
+  border-color: var(--et-forest);
+  color: var(--et-white);
+}
+
+/* Bed shapes */
+
+.et-bed-shapes {
+  display: grid;
+  gap: 0.85rem;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 640px) {
+  .et-bed-shapes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 960px) {
+  .et-bed-shapes {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.et-bed-shape {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.75rem 0.5rem;
+  border: 1px solid color-mix(in srgb, var(--et-forest) 18%, transparent);
+  background: var(--et-white);
+  cursor: pointer;
+  text-align: center;
+  font: inherit;
+  color: inherit;
+  transition: border-color 0.2s var(--et-ease), background 0.2s var(--et-ease), box-shadow 0.2s var(--et-ease);
+}
+
+.et-bed-shape:hover,
+.et-bed-shape.is-active {
+  border-color: var(--et-forest);
+  background: color-mix(in srgb, var(--et-mist) 50%, var(--et-white));
+}
+
+.et-bed-shape.is-active {
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--et-forest) 35%, transparent);
+}
+
+.et-bed-shape:focus-visible {
+  outline: 2px solid var(--et-forest);
+  outline-offset: 2px;
+}
+
+.et-bed-shape svg {
+  width: 100%;
+  max-width: 160px;
+  height: auto;
+}
+
+.et-bed-shape__label {
+  font-family: var(--font-ui);
+  font-size: 0.88rem;
+  font-weight: 600;
+  margin: 0;
+  color: var(--et-ink);
+}
+
+@keyframes et-diagram-dash {
+  to {
+    stroke-dashoffset: -18;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .et-diagram__flow-anim {
+    animation: none;
+  }
+
+  .et-diagram__hit {
+    transition: none;
+  }
+}

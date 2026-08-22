@@ -29,9 +29,9 @@ export const SITE = {
   brandMark: 'brand/cropped-Environment_Technology_AES.jpg',
   tileImage: 'brand/cropped-Environment_Technology_AES-270x270.jpg',
   faviconIco: 'favicon.ico',
-  favicon32: 'favicon-32x32.jpg',
-  favicon192: 'favicon-192x192.jpg',
-  appleTouchIcon: 'apple-touch-icon.jpg',
+  favicon32: 'brand/cropped-Environment_Technology_AES-32x32.jpg',
+  favicon192: 'brand/cropped-Environment_Technology_AES-192x192.jpg',
+  appleTouchIcon: 'brand/cropped-Environment_Technology_AES-180x180.jpg',
   /** Product wordmark (AES) — small accent, not brand-hero. */
   aesLogo: 'wp-content/uploads/AES_logo.png',
   contactEmail: 'info@et.nz',
@@ -76,6 +76,7 @@ export const PRODUCTS = [
 
 You maintain the septic tank on a normal multi-year pump-out cycle. Designers and installers work from ET manuals for sand, venting and bed shape.`,
     cta: { to: '/aes', label: 'How AES works' },
+    diagram: 'process-flow',
   },
   {
     slug: 'aes-components',
@@ -89,6 +90,7 @@ You maintain the septic tank on a normal multi-year pump-out cycle. Designers an
     ],
     body: `Components for every AES bed: pipe, fittings, vents and detailing. ET supplies the parts and the drawings so design and install stay on the same spec.`,
     cta: { to: '/contact', label: 'Request trade pack' },
+    diagram: 'pipe-layers',
   },
   {
     slug: 'tuf-tite',

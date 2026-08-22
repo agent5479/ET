@@ -20,6 +20,7 @@ Field habit: keep the achievement summary PDF and the site’s soil category in 
     excerpt:
       'Tight sites: mounds, curves and shaped beds — not more machinery.',
     tags: ['Homeowners', 'Design'],
+    diagram: 'bed-shapes',
     body: `On a steep Nelson section or a small lifestyle block, the wastewater area is often the last uncompromised rectangle — until it isn’t. AES’s flexibility shows up when the bed has to follow a contour, sit in a raised mound, or share space with hard surfaces.
 
 That does not mean “put it anywhere.” It means the design vocabulary includes options that pumped plants often solve with more machinery and more alarms. Homeowners care about lawn and noise; designers care about setbacks and reserve areas. AES sits in the overlap when the sand bed can be shaped to the site instead of demanding a flat, isolated field.

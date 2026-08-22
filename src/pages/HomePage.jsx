@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import AesProcessFlow from '../components/diagrams/AesProcessFlow.jsx';
 import AesVersatilityInfographic from '../components/AesVersatilityInfographic.jsx';
 import { Card, CardGrid } from '../components/ui/Card.jsx';
 import Section from '../components/ui/Section.jsx';
@@ -83,6 +84,14 @@ export default function HomePage() {
           title="Wastewater treatment you do not babysit"
           lede="AES does secondary treatment in pipe and system sand. No pumps in the bed."
         />
+        <div className="et-home-process">
+          <AesProcessFlow compact />
+          <p className="et-section-footer-link">
+            <Link className="et-text-link" to="/aes">
+              Full how-it-works →
+            </Link>
+          </p>
+        </div>
         <CardGrid cols={2}>
           {FACTS.map((text) => (
             <Card key={text} className="et-problem-card">
